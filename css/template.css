@@ -37,9 +37,12 @@ ul {
 	width: 100%;
 }
 
-.wvm_grid_objects li {
+.wvm_grid_object {
 	width: 25%;
 	float: left;
+}
+
+.wvm_grid_object_content {
 	text-align: center;
 	margin: 20px;
 	padding: 20px;
@@ -50,7 +53,7 @@ ul {
 	font-family: Arial, Helvetica;
 }
 
-.wvm_grid_objects li:hover {
+.wvm_grid_object_content:hover {
 	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .5);
 	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .5);
 	cursor: pointer;

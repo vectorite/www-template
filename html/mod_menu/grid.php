@@ -66,6 +66,7 @@ foreach ($list as $i => &$item) :
 	}
 
 	echo '<li'.$class.'>';
+	echo '<div class="wvm_grid_object">';
 
 	// Render the menu item.
 	switch ($item->type) :
@@ -89,7 +90,7 @@ foreach ($list as $i => &$item) :
 	// The next item is shallower.
 	elseif ($item->shallower)
 	{
-		echo '</li>';
+		echo '</div></li>';
 		echo str_repeat('</ul></li>', $item->level_diff);
 	}
 	// The next item is on the same level.
