@@ -51,8 +51,8 @@
 			<jdoc:include type="component" />
 		</div>
 	</div>
-	<script type="text/javascript" src="js/jquery-2.0.3-min.js"></script>
-	<script type="text/javascript" src="js/jqisotext-1.0-min.js"></script>
-	<script type="text/javascript" src="js/template.js"></script>
+	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-2.0.3-min.js"></script>
+	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jqisotext-1.0-min.js"></script>
+	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/template.js"></script>
 </body>
 </html>
