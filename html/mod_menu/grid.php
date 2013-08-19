@@ -12,6 +12,7 @@ defined('_JEXEC') or die;
 // Note. It is important to remove spaces between elements.
 ?>
 <?php // The menu class is deprecated. Use nav instead. ?>
+<div class="wvm_grid_objects"></div>
 <ul class="nav menu<?php echo $class_sfx;?>"<?php
 	$tag = '';
 	if ($params->get('tag_id') != null)
@@ -98,4 +99,4 @@ foreach ($list as $i => &$item) :
 		echo '</li>';
 	}
 endforeach;
-?></ul>
+?></ul></div>
