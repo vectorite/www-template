@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 // Note. It is important to remove spaces between elements.
 ?>
 <?php // The menu class is deprecated. Use nav instead. ?>
-<div class="wvm_grid_objects"></div>
+<div class="wvm_grid_objects">
 <ul class="nav menu<?php echo $class_sfx;?>"<?php
 	$tag = '';
 	if ($params->get('tag_id') != null)
@@ -70,6 +70,7 @@ foreach ($list as $i => &$item) :
 	echo '<div class="wvm_grid_object">';
 
 	// Render the menu item.
+	echo '<div class="wvm_grid_object_content">';
 	switch ($item->type) :
 		case 'separator':
 		case 'url':
@@ -82,6 +83,7 @@ foreach ($list as $i => &$item) :
 			require JModuleHelper::getLayoutPath('mod_menu', 'default_url');
 			break;
 	endswitch;
+	echo '</div>';
 
 	// The next item is deeper.
 	if ($item->deeper)
