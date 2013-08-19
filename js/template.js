@@ -7,14 +7,14 @@ function set_template_properties() {
 	
 	// Set the properties of the HTML elements
 	$(".wvm_grid_objects li").height(grid_objs_height+"px");
-	$(".wvm_grid_objects li a").css({borderRadius: grid_objs_radius});
+	$(".wvm_grid_objects li").css({borderRadius: grid_objs_radius});
 	$(".wvm_grid_objects").css("margin-top",grid_objs_margin_top+"px");
 	
 	// Set the line height for grid objects content
 	var grid_objs_content_line_height = grid_objs_height - 86;
 	
 	// Set the line height
-	$(".wvm_grid_objects li a").css("line-height",grid_objs_content_line_height+"px");
+	$(".wvm_grid_objects li").css("line-height",grid_objs_content_line_height+"px");
 	
 }
 
