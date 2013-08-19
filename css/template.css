@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+html,body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.wvm_site {
+	width: 100%;
+	height: 100%;
+}
+
+.wvm_site_grid {
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+}
+
+.wvm_site_dash {
+	z-index: 100;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.wvm_grid_objects {
+	overflow: auto;
+	height: auto;
+	float: left;
+	width: 100%;
+}
+
+.wvm_grid_object {
+	width: 25%;
+	float: left;
+}
+
+.wvm_grid_object_content {
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	border: solid 3px #f4f4f4;
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2);
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2);
+	text-transform: uppercase;
+	font-family: Arial, Helvetica;
+}
+
+.wvm_grid_object_content:hover {
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .5);
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .5);
+	cursor: pointer;
+}
+
+.wvm_dash_content {
+	overflow: auto;
+	height: auto;
+}
+
+.wvm_logo {
+	width: 128px;
+	height: 128px;
+	background-color: #333333;
+	margin: 0 20px 0 0;
+	float: left;
+}
+
+.wvm_tagline {
+	font-family: Arial, Helvetica;
+	font-size: 20px;
+}
+
+.wvm_site_content {
+	display: none;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+        <name>workVM</name>
+        <creationDate>2013-08-19</creationDate>
+        <author>David Taylor</author>
+        <authorEmail>djtaylor@workvm.com</authorEmail>
+        <authorUrl>http://www.workvm.com</authorUrl>
+        <copyright>workVM LLC</copyright>
+        <license>GPLv3</license>
+        <version>0.1</version>
+        <description>workVM Template</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+                <folder>js</folder>
+        </files>
+        <positions>
+                <position>dash</position>
+                <position>grid</position>
+        </positions>
+</extension>
