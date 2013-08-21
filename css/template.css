@@ -44,7 +44,6 @@ ul {
 }
 
 .wvm_grid_object_content {
-	color: #f4f4f4;
 	text-align: center;
 	margin: 20px;
 	padding: 20px;
@@ -62,6 +61,8 @@ ul {
 
 .wvm_grid_object_content a {
 	text-decoration: none;
+	color: #f4f4f4;
+	font-weight: bold;
 }
 
 .wvm_dash_content {
