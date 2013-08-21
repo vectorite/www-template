@@ -211,6 +211,9 @@ ul {
 	font-weight: bolder;
 }
 
+.wvm_subnav .nav-child {
+	font-weight: normal;
+}
 .wvm_subnav ul li {
 	list-style: decimal;
 	padding: 2px 0 2px 0;
