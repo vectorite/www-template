@@ -138,8 +138,8 @@ ul {
 	font-size: 1.5em;
 }
 
-.wvm_tagline p {
-	margin: 0 0 10px 0;
+.wvm_tagline_name {
+	font-size: 2em;
 }
 
 .wvm_site_content {

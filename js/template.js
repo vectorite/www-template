@@ -39,7 +39,7 @@ function set_template_properties() {
 		shadowOpacity: 0.2
 	};
 	
-	var nav_effects = {
+	var dash_effects = {
 			depth: 4,
 			angle: -235,
 			color: "#333",
@@ -66,7 +66,7 @@ function set_template_properties() {
 		}
 	);
 	
-	$(".wvm_nav_object_content").text3d(nav_effects).hover(
+	$(".wvm_nav_object_content, .wvm_tagline_name").text3d(dash_effects).hover(
 			function() {
 				$(this).text3d({
 					depth: 4,
