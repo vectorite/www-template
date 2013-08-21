@@ -184,8 +184,9 @@ ul {
 }
 
 .wvm_subnav {
-	position: static;
+	position: fixed;
 	float: right;
+	right: 0;
 	padding: 20px 0 0 0;
 }
 
