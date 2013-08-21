@@ -18,8 +18,8 @@ function set_template_properties() {
 	
 	// Set text effects
 	var default3d = {
-		depth: 6,
-		angle: -270,
+		depth: 4,
+		angle: -235,
 		color: "#aaa",
 		lighten: -0.1,
 		shadowDepth: 60,
@@ -30,8 +30,8 @@ function set_template_properties() {
 	$(".wvm_grid_object_content").text3d(default3d).hover(
 		function() {
 			$(this).text3d({
-				depth: 6,
-				angle: -270,
+				depth: 4,
+				angle: -235,
 				color: "#aaa",
 				lighten: -0.1,
 				shadowDepth: 60,
