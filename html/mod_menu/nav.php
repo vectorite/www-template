@@ -67,7 +67,7 @@ foreach ($list as $i => &$item) :
 	}
 
 	echo '<li'.$class.'>';
-	echo '<div class="wvm_grid_object">';
+	echo '<div class="wvm_nav_object">';
 
 	// Render the menu item.
 	echo '<div class="wvm_nav_object_content">';
