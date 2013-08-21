@@ -13,9 +13,8 @@
 		<div class="wvm_site_dash">
 			<div class="wvm_dash_content">
 				<div class="wvm_logo"></div>
-				<div class="wvm_tagline">
-					<p>workVM, an open-source software and IT support company with a passion for all things Linux</p>
-					<p>Check out our pilot software offering, the Intengine, a CentOS/RHEL management platform with a focus on automated configuration, virtualization and multi-node environments</p>
+				<div class="wvm_nav">
+					<jdoc:include type="modules" name="nav" />
 				</div>
 			</div>
 			<jdoc:include type="modules" name="dash" /> 
