@@ -93,6 +93,7 @@ ul {
 
 .wvm_nav {
 	float: left;
+	position: left;
 }
 
 .wvm_tagline {
