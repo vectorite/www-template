@@ -100,3 +100,10 @@ ul {
 	font-family: Arial, Helvetica;
 	font-size: 20px;
 }
+
+.wvm_site_content {
+	z-index: 99;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
