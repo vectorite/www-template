@@ -9,16 +9,16 @@
 	<link rel="shortcut icon" type="image/ico" href="http://www.workvm.com/favicon.ico" />
 </head>
 <body>
-	<div class="wvm_site">
-		<div class="wvm_site_dash">
-			<div class="wvm_dash_content">
-				<div class="wvm_logo"></div>
-				<div class="wvm_nav">
-					<jdoc:include type="modules" name="nav" />
-				</div>
+	<div class="wvm_site_dash">
+		<div class="wvm_dash_content">
+			<div class="wvm_logo"></div>
+			<div class="wvm_nav">
+				<jdoc:include type="modules" name="nav" />
 			</div>
-			<jdoc:include type="modules" name="dash" /> 
 		</div>
+		<jdoc:include type="modules" name="dash" /> 
+	</div>
+	<div class="wvm_site">
 		<div class="wvm_site_grid">
 			<jdoc:include type="modules" name="grid" /> 
 		</div>
