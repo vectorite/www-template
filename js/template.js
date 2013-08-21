@@ -82,7 +82,7 @@ function set_template_properties() {
 	$(".wvm_grid_object_content").fitText();
 	
 	// Go to home page when clicking the logo
-	$('.wvm_logo').click(function (){
+	$('.wvm_logo').click(function() {
 		window.location = 'index.php';
 	});
 	
