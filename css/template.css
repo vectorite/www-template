@@ -139,7 +139,9 @@ ul {
 }
 
 .wvm_tagline_name {
-	font-size: 2em;
+	font-size: 1.75em;
+	font-weight: bold;
+	color: #f4f4f4;
 }
 
 .wvm_site_content {
