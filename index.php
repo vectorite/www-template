@@ -31,7 +31,21 @@
 				if ($menu->getActive() == $menu->getDefault()) {
 					echo "<div style=\"display:none;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div><div class=\"wvm_subnav\"><jdoc:include type=\"modules\" name=\"subnav\" /></div></div>";
 				} else {
-					echo "<div style=\"display:all;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div><div class=\"wvm_subnav\"><jdoc:include type=\"modules\" name=\"subnav\" /></div></div>";
+					if ($this->countModules( 'subnav' )) {
+						echo "<div style=\"display:all;\">";
+						echo "<div class=\"wvm_site_content\" style=\"width:80%;\">";
+						echo "<jdoc:include type=\"component\" /></div>";
+						echo "<div class=\"wvm_subnav\" style=\"width:20%;\">";
+						echo "<jdoc:include type=\"modules\" name=\"subnav\" /></div>";
+						echo "</div>";
+                    } else {
+						echo "<div style=\"display:all;\">";
+						echo "<div class=\"wvm_site_content\" style=\"width:100%;\">";
+						echo "<jdoc:include type=\"component\" /></div>";
+						echo "<div class=\"wvm_subnav\" style=\"display:none;\">";
+						echo "<jdoc:include type=\"modules\" name=\"subnav\" /></div>";
+						echo "</div>";
+					}
 				}
 			?>
 	</div>

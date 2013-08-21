@@ -183,5 +183,6 @@ ul {
 }
 
 .wvm_subnav {
-	
+	position: static;
+	float: right;
 }
