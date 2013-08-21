@@ -19,11 +19,11 @@ function set_template_properties() {
 	// Set text effects
 	var default3d = {
 		depth: 6,
-		angle: -135,
+		angle: -270,
 		color: "#aaa",
 		lighten: -0.1,
-		shadowDepth: 0,
-		shadowAngle: 0,
+		shadowDepth: 30,
+		shadowAngle: 45,
 		shadowOpacity: 0.2
 	};
 			
@@ -31,11 +31,11 @@ function set_template_properties() {
 		function() {
 			$(this).text3d({
 				depth: 6,
-				angle: -135,
+				angle: -270,
 				color: "#aaa",
 				lighten: -0.1,
-				shadowDepth: 0,
-				shadowAngle: 0,
+				shadowDepth: 30,
+				shadowAngle: 45,
 				shadowOpacity: 0.4
 			});
 		},
