@@ -45,7 +45,6 @@ function set_template_properties() {
 	); 
 	
 	$(".wvm_grid_object_content").fitText();
-	$(".wvm_grid_object_content").jqIsoText();
 	
 }
 
