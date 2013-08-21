@@ -95,6 +95,10 @@ ul {
 	float: left;
 }
 
+.wvm_logo:hover {
+	cursor: pointer;
+}
+
 .wvm_nav {
 	float: left;
 	position: left;
@@ -117,6 +121,10 @@ ul {
 	text-decoration: none;
 	color: #f4f4f4;
 	text-transform: uppercase;
+}
+
+.wvm_nav_object_content:hover {
+	cursor: pointer;
 }
 
 .wvm_tagline {
