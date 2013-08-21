@@ -47,6 +47,8 @@ ul {
 	top: 0;
 	left: 0;
 	border-bottom: solid 1px #333333;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .2);
 }
 
 .wvm_grid_objects {
@@ -85,6 +87,7 @@ ul {
 
 .wvm_dash_content {
 	overflow: auto;
+	margin: 20px;
 	height: auto;
 }
 
