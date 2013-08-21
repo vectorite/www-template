@@ -38,6 +38,14 @@ ul {
 	z-index: 99;
 	position: absolute;
 	width: 60%;
+	float: left;
+}
+
+.wvm_site_info {
+	z-index: 99;
+	position: absolute;
+	width: 40%;
+	float: right;
 }
 
 .wvm_dash {

@@ -21,6 +21,7 @@
         <positions>
                 <position>dash</position>
                 <position>grid</position>
+                <position>intro</position>
                 <position>nav</position>
         </positions>
 </extension>

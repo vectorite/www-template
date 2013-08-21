@@ -22,6 +22,9 @@
 		<div class="wvm_site_grid">
 			<jdoc:include type="modules" name="grid" /> 
 		</div>
+		<div class="wvm_site_intro">
+			<jdoc:include type="modules" name="intro" />
+		</div>
 			<?php
 				$app = JFactory::getApplication();
 				$menu = $app->getMenu();
