@@ -45,7 +45,7 @@ function set_template_properties() {
 	); 
 	
 	$(".wvm_grid_object_content").fitText();
-	//$(".wvm_grid_object_content").jqIsoText({ fromSize: 16, toSize: 32, split: 'yes' });
+	$(".wvm_grid_object_content").jqIsoText();
 	
 }
 
