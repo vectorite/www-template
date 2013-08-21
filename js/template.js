@@ -24,6 +24,10 @@ function set_template_properties() {
 	var site_top = $('.wvm_dash').height() + 40;
 	$('.wvm_site').css("margin-top",site_top+"px")
 	
+	// Set the height for the main site container
+	var site_height = $(window).height() - site_top;
+	$('.wvm_site').height(site_height);
+	
 	// Set text effects
 	var grid_effects = {
 		depth: 4,
