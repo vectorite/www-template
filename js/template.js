@@ -20,6 +20,10 @@ function set_template_properties() {
 	var nav_width = $('.wvm_site').width() - ($('.wvm_logo').width() + 20) - 20;
 	$('.wvm_nav').width(nav_width);
 	
+	// Set the top property for site content
+	var site_top = $('.wvm_site_dash').height();
+	$('.wvm_site_content').css("top",site_top+"px")
+	
 	// Set text effects
 	var default3d = {
 		depth: 4,
