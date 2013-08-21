@@ -187,7 +187,9 @@ ul {
 	position: fixed;
 	float: right;
 	right: 0;
-	padding: 20px 0 0 0;
+	padding: 20px 0 20px 0;
+	margin: 20px 0 20px 0;
+	border-left: dotted 1px #333333;
 }
 
 .wvm_subnav a {
