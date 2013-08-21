@@ -136,3 +136,7 @@ ul {
 .wvm_site_content.item-page {
 	margin: 0 20px 20px 20px;
 }
+
+.wvm_site_content.item-page.btn-group {
+	display: none;
+}
