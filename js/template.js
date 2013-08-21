@@ -16,6 +16,10 @@ function set_template_properties() {
 	// Set the line height
 	$(".wvm_grid_object_content").css("line-height",grid_objs_content_line_height+"px");
 	
+	// Set the navigation properties
+	var nav_width = $('.wvm_site_dash').width() - ($('.wvm_logo').width() + 20);
+	$('.wvm_nav').width(nav_width);
+	
 	// Set text effects
 	var default3d = {
 		depth: 4,
