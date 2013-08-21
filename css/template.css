@@ -11,6 +11,7 @@ html,body {
 ul {
 	list-style: none;
 	padding: 0;
+	margin: 0;
 }
 
 .wvm_site {
@@ -107,8 +108,9 @@ ul {
 	-webkit-border-radius: 28px;
 	border-radius: 28px;
 	border: solid 3px #f4f4f4; 
-	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2);
-	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .2);
+	margin: 0 10px 0 0;
 }
 
 .wvm_tagline {
