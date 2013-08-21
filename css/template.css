@@ -18,6 +18,7 @@ ul {
 .wvm_site {
 	width: 100%;
 	position: static;
+	float: left;
 	background-image: linear-gradient(top, rgb(255,255,255) 0%, rgb(244,244,244) 100%);
 	background-image: -o-linear-gradient(top, rgb(255,255,255) 0%, rgb(244,244,244) 100%);
 	background-image: -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(244,244,244) 100%);
