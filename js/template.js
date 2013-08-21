@@ -17,7 +17,7 @@ function set_template_properties() {
 	$(".wvm_grid_object_content").css("line-height",grid_objs_content_line_height+"px");
 	
 	// Set the navigation properties
-	var nav_width = $('.wvm_site').width() - ($('.wvm_logo').width() + 20) - 20;
+	var nav_width = $('.wvm_site').width() - ($('.wvm_logo').width() + 20) - 40;
 	$('.wvm_nav').width(nav_width);
 	
 	// Set the top property for site content
