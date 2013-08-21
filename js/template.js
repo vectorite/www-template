@@ -31,7 +31,7 @@ function set_template_properties() {
 		shadowOpacity: 0.2
 	};
 			
-	$(".wvm_grid_object_content").text3d(default3d).hover(
+	$(".wvm_grid_object_content .wvm_nav_object_content").text3d(default3d).hover(
 		function() {
 			$(this).text3d({
 				depth: 4,
