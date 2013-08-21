@@ -187,8 +187,8 @@ ul {
 	position: fixed;
 	float: right;
 	right: 0;
-	padding: 20px 0 20px 0;
-	margin: 20px 0 20px 0;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
 }
 
 .wvm_subnav a {
@@ -203,5 +203,5 @@ ul {
 }
 
 .wvm_subnav ul li {
-	
+	list-style: decimal;
 }
