@@ -195,7 +195,11 @@ ul {
 	text-decoration: none;
 	color: #333333;
 	font-size: 1.2em;
-	width: 100%;
+}
+
+.wvm_subnav a:hover {
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 .wvm_subnav ul {
@@ -203,6 +207,11 @@ ul {
 	margin: 0 20px 0 0;
 }
 
+.wvm_subnav ul .parent {
+	font-weight: bolder;
+}
+
 .wvm_subnav ul li {
 	list-style: decimal;
+	padding: 2px 0 2px 0;
 }
