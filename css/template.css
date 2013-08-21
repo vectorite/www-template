@@ -46,6 +46,8 @@ ul {
 	position: absolute;
 	width: 40%;
 	float: right;
+	right: 0;
+	padding: 20px;
 }
 
 .wvm_dash {
