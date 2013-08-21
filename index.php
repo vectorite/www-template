@@ -22,36 +22,13 @@
 		</div>
 		<div class="wvm_site_grid">
 			<jdoc:include type="modules" name="grid" /> 
-			<!-- TEST GRID CONTENT
-			<ul class="wvm_grid_objects">
-				<li class="wvm_grid_object">
-					<ul class="wvm_grid_object_content">
-						<li>About</li>
-					</ul>
-				</li>
-				<li class="wvm_grid_object">
-					<ul class="wvm_grid_object_content">
-						<li>Downloads</li>
-					</ul>
-				</li>
-				<li class="wvm_grid_object">
-					<ul class="wvm_grid_object_content">
-						<li>Documentation</li>
-					</ul>
-				</li>
-				<li class="wvm_grid_object">
-					<ul class="wvm_grid_object_content">
-						<li>Contact</li>
-					</ul>
-				</li>
-			</ul>
-			 -->
 		</div>
 		<div class="wvm_site_content">
 			<jdoc:include type="component" />
 		</div>
 	</div>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-2.0.3-min.js"></script>
+	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jq3dtxt-1.0.js"></script>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jqisotext-1.0-min.js"></script>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/template.js"></script>
 </body>
