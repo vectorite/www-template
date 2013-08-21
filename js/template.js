@@ -23,20 +23,20 @@ function set_template_properties() {
 		color: "#aaa",
 		lighten: -0.1,
 		shadowDepth: 30,
-		shadowAngle: 45,
+		shadowAngle: 0,
 		shadowOpacity: 0.2
 	};
 			
 	$(".wvm_grid_object_content").text3d(default3d).hover(
 		function() {
 			$(this).text3d({
-				depth: 4,
-				angle: 225,
+				depth: 6,
+				angle: 135,
 				color: "#aaa",
 				lighten: -0.1,
 				shadowDepth: 30,
-				shadowAngle: 135,
-				shadowOpacity: 0.2
+				shadowAngle: 0,
+				shadowOpacity: 0.4
 			});
 		},
 		function() {
