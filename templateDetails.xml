@@ -23,5 +23,6 @@
                 <position>grid</position>
                 <position>intro</position>
                 <position>nav</position>
+                <position>subnav</position>
         </positions>
 </extension>

@@ -29,9 +29,9 @@
 				$app = JFactory::getApplication();
 				$menu = $app->getMenu();
 				if ($menu->getActive() == $menu->getDefault()) {
-					echo "<div style=\"display:none;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div></div>";
+					echo "<div style=\"display:none;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div><div class=\"wvm_subnav\"><jdoc:include type=\"modules\" name=\"subnav\" /></div></div>";
 				} else {
-					echo "<div style=\"display:all;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div></div>";
+					echo "<div style=\"display:all;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div><div class=\"wvm_subnav\"><jdoc:include type=\"modules\" name=\"subnav\" /></div></div>";
 				}
 			?>
 	</div>
