@@ -26,6 +26,10 @@ function set_template_properties() {
 	var site_height = $(window).height() - site_top;
 	$('.wvm_site').height(site_height);
 	
+	// Set the grid top margin
+	var grid_margin = ($('.wvm_site').height() - grid_objs_height) / 2;
+	$(".wvm_site_grid").css("margin-top",grid_margin+"px");
+	
 	// Set text effects
 	var grid_effects = {
 		depth: 4,
