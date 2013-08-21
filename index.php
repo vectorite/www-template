@@ -23,7 +23,15 @@
 			<jdoc:include type="modules" name="grid" /> 
 		</div>
 		<div class="wvm_site_content">
-			<jdoc:include type="component" />
+			<?php
+				$app = JFactory::getApplication();
+				$menu = $app->getMenu();
+				if ($menu->getActive() == $menu->getDefault()) {
+					echo "<div style=\"display:none;\"><jdoc:include type=\"component\" /></div>";
+				} else {
+					echo "<jdoc:include type=\"component\" />";
+				}
+			?>
 		</div>
 	</div>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-2.0.3-min.js"></script>

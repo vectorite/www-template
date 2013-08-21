@@ -91,13 +91,11 @@ ul {
 	float: left;
 }
 
-.wvm_nav {}
+.wvm_nav {
+	float: left;
+}
 
 .wvm_tagline {
 	font-family: Arial, Helvetica;
 	font-size: 20px;
-}
-
-.wvm_site_content {
-	display: none;
 }
