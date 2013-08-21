@@ -20,7 +20,7 @@ function set_template_properties() {
 	var default3d = {
 		depth: 4,
 		angle: -235,
-		color: "#aaa",
+		color: "#333",
 		lighten: -0.1,
 		shadowDepth: 60,
 		shadowAngle: 45,
@@ -32,7 +32,7 @@ function set_template_properties() {
 			$(this).text3d({
 				depth: 4,
 				angle: -235,
-				color: "#aaa",
+				color: "#333",
 				lighten: -0.1,
 				shadowDepth: 60,
 				shadowAngle: 45,
