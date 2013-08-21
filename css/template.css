@@ -97,6 +97,20 @@ ul {
 	position: left;
 }
 
+.wvm_nav_object {
+	float: left;
+}
+
+.wvm_nav_object_content {
+	width: 56px;
+	height: 56px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border: solid 3px #f4f4f4; 
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2);
+}
+
 .wvm_tagline {
 	font-family: Arial, Helvetica;
 	font-size: 1.5em;
