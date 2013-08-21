@@ -50,6 +50,10 @@ ul {
 	padding: 20px;
 }
 
+.wvm_site_intro_content {
+	padding: 20px;
+}
+
 .wvm_dash {
 	z-index: 100;
 	position: fixed;
