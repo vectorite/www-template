@@ -189,7 +189,6 @@ ul {
 	right: 0;
 	padding: 20px 0 20px 0;
 	margin: 20px 0 20px 0;
-	border-left: dotted 1px #333333;
 }
 
 .wvm_subnav a {
@@ -199,8 +198,8 @@ ul {
 }
 
 .wvm_subnav ul {
-	list-style: disc;
-	padding: 0 20px 0 20px;
+	padding: 0 0 0 20px;
+	margin: 0 20px 0 0;
 }
 
 .wvm_subnav ul li {
