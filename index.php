@@ -22,17 +22,15 @@
 		<div class="wvm_site_grid">
 			<jdoc:include type="modules" name="grid" /> 
 		</div>
-		<div class="wvm_site_content">
 			<?php
 				$app = JFactory::getApplication();
 				$menu = $app->getMenu();
 				if ($menu->getActive() == $menu->getDefault()) {
-					echo "<div style=\"display:none;\"><jdoc:include type=\"component\" /></div>";
+					echo "<div style=\"display:none;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div></div>";
 				} else {
-					echo "<jdoc:include type=\"component\" />";
+					echo "<div style=\"display:all;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div></div>";
 				}
 			?>
-		</div>
 	</div>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-2.0.3-min.js"></script>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jq3dtxt-1.0.js"></script>
