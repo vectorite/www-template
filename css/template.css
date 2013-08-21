@@ -207,8 +207,8 @@ ul {
 	margin: 0 20px 0 0;
 }
 
-.wvm_subnav ul .parent {
-	font-weight: bolder;
+.wvm_subnav ul .active.current {
+	font-weight: bold;
 }
 
 .wvm_subnav .nav-child {
