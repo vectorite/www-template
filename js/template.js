@@ -17,15 +17,34 @@ function set_template_properties() {
 	$(".wvm_grid_object_content").css("line-height",grid_objs_content_line_height+"px");
 	
 	// Set text effects
-	$(".wvm_grid_object_content").text3d({
+	var default3d = {
 		depth: 6,
 		angle: 135,
-		color: "#333",
+		color: "#333333",
 		lighten: -0.1,
 		shadowDepth: 30,
 		shadowAngle: 45,
 		shadowOpacity: 0.2
-	});
+	};
+			
+	$(".wvm_grid_object_content").text3d(default3d).hover(
+		function() {
+			$(this).text3d({
+				depth: 4,
+				angle: 225,
+				color: "#333333",
+				lighten: -0.1,
+				shadowDepth: 30,
+				shadowAngle: 135,
+				shadowOpacity: 0.2
+			});
+		},
+		function() {
+			$(this).text3d(default3d);
+		}
+	); 
+	
+	$(".wvm_grid_object_content").fitText();
 	//$(".wvm_grid_object_content").jqIsoText({ fromSize: 16, toSize: 32, split: 'yes' });
 	
 }
