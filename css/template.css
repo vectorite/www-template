@@ -39,9 +39,9 @@ ul {
 
 .wvm_site_dash {
 	z-index: 100;
-	position: absolute;
-	top: 20px;
-	left: 20px;
+	position: static;
+	float: left;
+	padding: 20px 0 0 20px;
 }
 
 .wvm_grid_objects {
