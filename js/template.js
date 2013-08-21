@@ -22,8 +22,8 @@ function set_template_properties() {
 		angle: -270,
 		color: "#aaa",
 		lighten: -0.1,
-		shadowDepth: 30,
-		shadowAngle: 0,
+		shadowDepth: 60,
+		shadowAngle: 45,
 		shadowOpacity: 0.2
 	};
 			
@@ -34,8 +34,8 @@ function set_template_properties() {
 				angle: -270,
 				color: "#aaa",
 				lighten: -0.1,
-				shadowDepth: 30,
-				shadowAngle: 0,
+				shadowDepth: 60,
+				shadowAngle: 45,
 				shadowOpacity: 0.4
 			});
 		},
