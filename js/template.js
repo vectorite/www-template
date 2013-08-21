@@ -25,7 +25,7 @@ function set_template_properties() {
 	$('.wvm_site_content').css("top",site_top+"px")
 	
 	// Set text effects
-	var default3d = {
+	var grid_effects = {
 		depth: 4,
 		angle: -235,
 		color: "#333",
@@ -34,8 +34,18 @@ function set_template_properties() {
 		shadowAngle: 45,
 		shadowOpacity: 0.2
 	};
+	
+	var nav_effects = {
+			depth: 4,
+			angle: -235,
+			color: "#333",
+			lighten: -0.1,
+			shadowDepth: 20,
+			shadowAngle: 45,
+			shadowOpacity: 0.2
+		};
 			
-	$(".wvm_grid_object_content, .wvm_nav_object_content").text3d(default3d).hover(
+	$(".wvm_grid_object_content").text3d(grid_effects).hover(
 		function() {
 			$(this).text3d({
 				depth: 4,
@@ -50,7 +60,24 @@ function set_template_properties() {
 		function() {
 			$(this).text3d(default3d);
 		}
-	); 
+	);
+	
+	$(".wvm_nav_object_content").text3d(nav_effects).hover(
+			function() {
+				$(this).text3d({
+					depth: 4,
+					angle: -235,
+					color: "#333",
+					lighten: -0.1,
+					shadowDepth: 20,
+					shadowAngle: 45,
+					shadowOpacity: 0.4
+				});
+			},
+			function() {
+				$(this).text3d(default3d);
+			}
+		); 
 	
 	$(".wvm_grid_object_content").fitText();
 	
