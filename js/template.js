@@ -21,7 +21,7 @@ function set_template_properties() {
 	$('.wvm_nav').width(nav_width);
 	
 	// Set the margin top property for site content
-	var site_top = $('.wvm_dash').height();
+	var site_top = $('.wvm_dash').height() + 40;
 	$('.wvm_site').css("margin-top",site_top+"px")
 	
 	// Set text effects
