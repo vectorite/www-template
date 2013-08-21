@@ -19,10 +19,10 @@ function set_template_properties() {
 	// Set text effects
 	var default3d = {
 		depth: 6,
-		angle: 135,
+		angle: -135,
 		color: "#aaa",
 		lighten: -0.1,
-		shadowDepth: 30,
+		shadowDepth: 0,
 		shadowAngle: 0,
 		shadowOpacity: 0.2
 	};
@@ -31,10 +31,10 @@ function set_template_properties() {
 		function() {
 			$(this).text3d({
 				depth: 6,
-				angle: 135,
+				angle: -135,
 				color: "#aaa",
 				lighten: -0.1,
-				shadowDepth: 30,
+				shadowDepth: 0,
 				shadowAngle: 0,
 				shadowOpacity: 0.4
 			});
