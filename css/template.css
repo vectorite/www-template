@@ -105,11 +105,6 @@ ul {
 .wvm_nav_object_content {
 	width: auto;
 	height: 32px;
-	-webkit-border-radius: 16px;
-	border-radius: 16px;
-	border: solid 3px #f4f4f4; 
-	-webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, .2);
-	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, .2);
 	margin: 8px 20px 8px 0;
 	padding: 5px;
 	line-height: 26px;
@@ -118,6 +113,7 @@ ul {
 .wvm_nav_object_content a {
 	text-decoration: none;
 	color: #f4f4f4;
+	text-transform: uppercase;
 }
 
 .wvm_tagline {
