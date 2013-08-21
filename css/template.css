@@ -37,7 +37,7 @@ ul {
 .wvm_site_grid {
 	z-index: 99;
 	position: absolute;
-	width: 100%;
+	width: 60%;
 }
 
 .wvm_dash {
