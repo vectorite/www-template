@@ -186,4 +186,5 @@ ul {
 .wvm_subnav {
 	position: static;
 	float: right;
+	list-style: disc;
 }
