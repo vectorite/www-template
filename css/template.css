@@ -48,16 +48,14 @@ ul {
 	margin: 20px;
 	padding: 20px;
 	border: solid 3px #f4f4f4;
-	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2);
-	-webkit-box-shadow: inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2);
-	box-shadow: inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2); 
-	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2); 
 	font-family: Arial, Helvetica;
 }
 
 .wvm_grid_object_content:hover {
-	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .5);
-	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .4), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .4), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.3); 
 	cursor: pointer;
 }
 
