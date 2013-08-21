@@ -23,7 +23,7 @@ function set_template_properties() {
 		color: "#aaa",
 		lighten: -0.1,
 		shadowDepth: 30,
-		shadowAngle: 45,
+		shadowAngle: 90,
 		shadowOpacity: 0.2
 	};
 			
@@ -35,7 +35,7 @@ function set_template_properties() {
 				color: "#aaa",
 				lighten: -0.1,
 				shadowDepth: 30,
-				shadowAngle: 45,
+				shadowAngle: 90,
 				shadowOpacity: 0.4
 			});
 		},
