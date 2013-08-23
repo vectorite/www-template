@@ -89,7 +89,7 @@ function set_template_properties() {
 	
 	// Go to home page when clicking the logo
 	$('.wvm_logo').click(function() {
-		window.location = 'index.php';
+		window.location = 'www.workvm.com/';
 	});
 	
 }
