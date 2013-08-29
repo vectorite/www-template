@@ -12,7 +12,7 @@ function set_template_properties() {
 	var grid_objs_content_line_height = grid_objs_height - 86;
 	
 	// Set the line height
-	$(".wvm_grid_object_content").css("line-height",grid_objs_content_line_height+"px");
+	//$(".wvm_grid_object_content").css("line-height",grid_objs_content_line_height+"px");
 	
 	// Set the navigation properties
 	var nav_width = $('.wvm_site').width() - ($('.wvm_logo').width() + 20) - 40;
