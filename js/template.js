@@ -6,7 +6,7 @@ function set_template_properties() {
 	
 	// Set the properties of the HTML elements
 	//$(".wvm_grid_object").height(grid_objs_height+"px");
-	$(".wvm_grid_object_content").css({borderRadius: grid_objs_radius});
+	//$(".wvm_grid_object_content").css({borderRadius: grid_objs_radius});
 	
 	// Set the line height for grid objects content
 	var grid_objs_content_line_height = grid_objs_height - 86;

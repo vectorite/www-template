@@ -47,16 +47,17 @@ ul {
 .wvm_site_grid {
 	z-index: 99;
 	position: absolute;
-	width: 60%;
-	float: left;
+	width: 50%;
+	float: right;
+	right: 0;
 }
 
 .wvm_site_intro {
 	z-index: 99;
 	position: absolute;
-	width: 40%;
-	float: right;
-	right: 0;
+	width: 50%;
+	float: left;
+	left: 0;
 }
 
 .wvm_site_intro_content {
@@ -84,23 +85,17 @@ ul {
 }
 
 .wvm_grid_object {
-	width: 25%;
-	float: left;
+	width: 100%;
+	float: right;
 }
 
 .wvm_grid_object_content {
 	text-align: center;
 	margin: 20px;
 	padding: 20px;
-	border: solid 3px #f4f4f4;
-	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2);
-	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.2); 
-	background: #004764;
 }
 
 .wvm_grid_object_content:hover {
-	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .4), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .4), inset 0px 0px 40px 5px rgba(0, 0, 0, 0.3); 
 	cursor: pointer;
 }
 
