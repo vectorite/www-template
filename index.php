@@ -13,9 +13,9 @@
 	$app = JFactory::getApplication();
 	$menu = $app->getMenu();
 	if ($menu->getActive() == $menu->getDefault()) {
-		echo '<div class="wvm_dash" style="display:all;">';
-	} else {
 		echo '<div class="wvm_dash" style="display:none;">';
+	} else {
+		echo '<div class="wvm_dash" style="display:all;">';
 	}
 	?>
 		<div class="wvm_dash_content">
