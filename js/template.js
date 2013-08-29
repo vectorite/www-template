@@ -5,7 +5,7 @@ function set_template_properties() {
 	var grid_objs_radius = (grid_objs_height / 2) - 20;
 	
 	// Set the properties of the HTML elements
-	$(".wvm_grid_object").height(grid_objs_height+"px");
+	//$(".wvm_grid_object").height(grid_objs_height+"px");
 	$(".wvm_grid_object_content").css({borderRadius: grid_objs_radius});
 	
 	// Set the line height for grid objects content
@@ -89,7 +89,7 @@ function set_template_properties() {
 	
 	// Go to home page when clicking the logo
 	$('.wvm_logo').click(function() {
-		window.location = 'www.workvm.com';
+		window.location = '/';
 	});
 	
 }
