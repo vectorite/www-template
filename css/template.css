@@ -118,11 +118,14 @@ ul {
 }
 
 .wvm_logo {
-	width: 64px;
-	height: 64px;
+	width: 16px;
+	height: 16px;
 	background-color: #333333;
 	margin: 0 20px 0 0;
 	float: left;
+	background: url(../favicon.ico)
+		repeat scroll 0 0
+		transparent;
 }
 
 .wvm_logo:hover {
@@ -140,11 +143,10 @@ ul {
 
 .wvm_nav_object_content {
 	width: auto;
-	height: 32px;
-	margin: 8px 20px 8px 0;
-	padding: 5px;
-	line-height: 26px;
-	font-size: 1.5em;
+	height: 16px;
+	padding: 0px 20px 0px 0px;
+	line-height: 16px;
+	font-size: 1.2em;
 }
 
 .wvm_nav_object_content a {
