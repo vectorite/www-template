@@ -3,10 +3,10 @@ function set_template_properties() {
 	// Get global page properties
 	var window_height = $(window).height();
 	
-	alert(window_height);
-	
 	// Set the properties for the homepage grid
+	var grid_objects_length = $('.wvm_grid_objects').length;
 	$(".wvm_grid_objects").height(window_height);
+	$(".wvm_grid_ojbect").height(window_height / grid_objects_length);
 
 	// Set the navigation properties
 	var nav_width = $('.wvm_site').width() - ($('.wvm_logo').width() + 20) - 40;
