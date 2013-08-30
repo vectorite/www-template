@@ -8,7 +8,7 @@ function set_template_properties() {
 	
 	// Set the properties for the homepage grid
 	var grid_objects_length = $('.wvm_grid_object').length;
-	var grid_objects_padding = $('.wvm_grid_object').('padding');
+	var grid_objects_padding = $('.wvm_grid_object').css('padding');
 	$(".wvm_grid_objects").height(window_height);
 	$(".wvm_grid_object").height((window_height - (grid_objects_padding * 2)) / grid_objects_length);
 
