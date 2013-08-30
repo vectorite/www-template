@@ -2,6 +2,7 @@ function set_template_properties() {
 	
 	// Get global page properties
 	var window_height = $(window).height();
+	var window_width = $(window).width();
 	
 	// Set the properties for the homepage grid
 	var grid_objects_length = $('.wvm_grid_object').length;
