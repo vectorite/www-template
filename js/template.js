@@ -14,7 +14,7 @@ function set_template_properties() {
 	
 	// Set the margin and height properties for site content
 	var site_top = $('.wvm_dash').height();
-	var site_height = $(window_height - site_top;
+	var site_height = $(window_height - site_top);
 	$('.wvm_site_global').css("margin-top",site_top+"px");
 	$('.wvm_site_global').height(site_height);
 	
