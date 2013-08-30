@@ -10,13 +10,13 @@
 </head>
 <body>
 	<?php
-	$app = JFactory::getApplication();
-	$menu = $app->getMenu();
-	if ($menu->getActive() == $menu->getDefault()) {
-		echo '<div class="wvm_dash" style="display:none;">';
-	} else {
-		echo '<div class="wvm_dash" style="display:all;">';
-	}
+		$app = JFactory::getApplication();
+		$menu = $app->getMenu();
+		if ($menu->getActive() == $menu->getDefault()) {
+			echo '<div class="wvm_dash" style="display:none;">';
+		} else {
+			echo '<div class="wvm_dash" style="display:all;">';
+		}
 	?>
 		<div class="wvm_dash_content">
 			<div class="wvm_logo"></div>
@@ -26,7 +26,16 @@
 		</div>
 		<jdoc:include type="modules" name="dash" /> 
 	</div>
-	<div class="wvm_site">
+	
+	<?php
+		$app = JFactory::getApplication();
+		$menu = $app->getMenu();
+		if ($menu->getActive() == $menu->getDefault()) {
+			echo '<div class="wvm_site_home">';
+		} else {
+			echo '<div class="wvm_site_global">';
+		}
+	?>
 		<div class="wvm_site_grid">
 			<jdoc:include type="modules" name="grid" /> 
 		</div>
@@ -59,8 +68,7 @@
 	</div>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-2.0.3-min.js"></script>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jq3dtxt-1.0.js"></script>
-	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jq-fittxt-1.0.js"></script>
-	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jqisotext-1.0-min.js"></script>
+	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jqfittxt-1.0.js"></script>
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/template.js"></script>
 </body>
 </html>
