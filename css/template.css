@@ -87,7 +87,6 @@ ul {
 
 .wvm_grid_objects {
 	overflow: auto;
-	height: auto;
 	float: left;
 	width: 100%;
 }
