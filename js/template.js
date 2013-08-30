@@ -6,7 +6,7 @@ function set_template_properties() {
 	// Set the properties for the homepage grid
 	var grid_objects_length = $('.wvm_grid_object').length;
 	$(".wvm_grid_objects").height(window_height);
-	$(".wvm_grid_ojbect").height(window_height / grid_objects_length);
+	$(".wvm_grid_object").height(window_height / grid_objects_length);
 
 	// Set the navigation properties
 	var nav_width = $('.wvm_site').width() - ($('.wvm_logo').width() + 20) - 40;
