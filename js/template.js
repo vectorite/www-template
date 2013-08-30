@@ -3,6 +3,8 @@ function set_template_properties() {
 	// Get global page properties
 	var window_height = $(window).height();
 	var window_width = $(window).width();
+	var doc_height = $(document).height();
+	var doc_width = $(document).width();
 	
 	// Set the properties for the homepage grid
 	var grid_objects_length = $('.wvm_grid_object').length;
@@ -15,7 +17,7 @@ function set_template_properties() {
 	
 	// Set the margin and height properties for site content
 	var site_top = $('.wvm_dash').height();
-	var site_height = $(window_height - site_top);
+	var site_height = $(doc_height - site_top);
 	$('.wvm_site_global').css("margin-top",site_top+"px");
 	$('.wvm_site_global').height(site_height);
 	
