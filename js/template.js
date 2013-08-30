@@ -3,6 +3,8 @@ function set_template_properties() {
 	// Get global page properties
 	var window_height = $(window).height();
 	
+	alert(window_height);
+	
 	// Set the properties for the homepage grid
 	$(".wvm_grid_objects").height(window_height);
 
