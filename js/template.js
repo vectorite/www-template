@@ -4,7 +4,7 @@ function set_template_properties() {
 	var window_height = $(window).height();
 	
 	// Set the properties for the homepage grid
-	var grid_objects_length = $('.wvm_grid_objects').length;
+	var grid_objects_length = $('.wvm_grid_object').length;
 	$(".wvm_grid_objects").height(window_height);
 	$(".wvm_grid_ojbect").height(window_height / grid_objects_length);
 
