@@ -9,7 +9,7 @@ function set_template_properties() {
 	$(".wvm_grid_object").height(window_height / grid_objects_length);
 
 	// Set the navigation properties
-	var nav_width = $(window_width - ($('.wvm_logo').width() + 20) - 40;
+	var nav_width = window_width - ($('.wvm_logo').width() + 20) - 40;
 	$('.wvm_nav').width(nav_width);
 	
 	// Set the margin and height properties for site content
