@@ -40,7 +40,7 @@ function set_template_properties() {
 				});
 			},
 			function() {
-				$(this).text3d(default3d);
+				$(this).text3d(grid_effects);
 			}
 		);
 	
@@ -68,7 +68,7 @@ function set_template_properties() {
 				});
 			},
 			function() {
-				$(this).text3d(default3d);
+				$(this).text3d(dash_effects);
 			}
 		); 
 	
