@@ -201,6 +201,7 @@ ul {
 
 .wvm_subnav_object_content {
 	padding: 3px;
+	border-bottom: dotted 1px #999;
 }
 
 .wvm_breadcrumb {
