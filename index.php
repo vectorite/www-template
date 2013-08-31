@@ -22,7 +22,9 @@ require_once('library/git.php');
 		}
 	?>
 		<div class="wvm_dash_content">
-			<div class="wvm_logo"></div>
+			<div class="wvm_logo">
+				<img src="images/workvm-logo_unified.png" />
+			</div>
 			<div class="wvm_nav">
 				<jdoc:include type="modules" name="nav" />
 			</div>
