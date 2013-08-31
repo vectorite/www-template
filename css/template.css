@@ -46,6 +46,7 @@ ul {
 	width: 100%;
 	position: static;
 	float: left;
+	overflow: hidden;
 }
 
 .wvm_site_grid {
@@ -162,6 +163,7 @@ ul {
 	padding: 10px 0 10px 0;
 	margin: 10px 0 10px 0;
 	list-style: none;
+	overflow: auto;
 }
 
 .wvm_subnav a {
@@ -232,6 +234,7 @@ ul {
 	position: static;
 	width: 100%;
 	float: left;
+	overflow: auto;
 }
 
 .item-page, .blog {
