@@ -71,10 +71,10 @@ foreach ($list as $i => &$item) :
 	}
 
 	echo '<li'.$class.'>';
-	echo '<div class="wvm_subnav_object '.$subnav_class.'">';
+	echo '<div class="wvm_subnav_object">';
 
 	// Render the menu item.
-	echo '<div class="wvm_subnav_object_content">';
+	echo '<div class="wvm_subnav_object_content'.$subnav_class.'">';
 	switch ($item->type) :
 		case 'separator':
 		case 'url':
