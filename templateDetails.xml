@@ -24,6 +24,7 @@
                 <position>grid</position>
                 <position>intro</position>
                 <position>nav</position>
+                <position>breadcrumb</position>
                 <position>subnav</position>
         </positions>
 </extension>
