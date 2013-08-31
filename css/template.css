@@ -205,8 +205,8 @@ ul {
 	border-left: solid 3px #e0e0e0;
 }
 
-.wvm_subnav_object {
-	
+.wvm_subnav_object .parent {
+	font-weight: bold;
 }
 
 .wvm_subnav_object_content {
@@ -218,10 +218,6 @@ ul {
 	background: #f4f4f4;
 	cursor: pointer;
 	border-bottom: dotted 1px #333;
-}
-
-.wvm_subnav_object_content .parent {
-	font-weight: bold;
 }
 
 .subnav_indent_1 {padding: 3px 3px 3px 5px;}
