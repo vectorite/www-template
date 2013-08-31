@@ -79,20 +79,17 @@ foreach ($list as $i => &$item) :
 	if ($item->deeper)
 	{
 		$indent++;
-		$subnav_class .= ' indent_'.$indent;
-		echo '<div class="wvm_subnav_object_content'.$subnav_class.'">';
+		echo '<div class="wvm_subnav_object_content'.$subnav_class.' subnav_indent_'.$indent.'">';
 	}
 	// The next item is shallower.
 	elseif ($item->shallower)
 	{
 		$indent--;
-		$subnav_class .= ' indent_'.$indent;
-		echo '<div class="wvm_subnav_object_content'.$subnav_class.'">';
+		echo '<div class="wvm_subnav_object_content'.$subnav_class.' subnav_indent_'.$indent.'">';
 	}
 	// The next item is on the same level.
 	else {
-		$subnav_class .= ' indent_'.$indent;
-		echo '<div class="wvm_subnav_object_content'.$subnav_class.'">';
+		echo '<div class="wvm_subnav_object_content'.$subnav_class.' subnav_indent_'.$indent.'">';
 	}
 	switch ($item->type) :
 		case 'separator':
