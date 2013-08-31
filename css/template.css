@@ -10,7 +10,7 @@ html,body {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 1.4em;
 }
 
 h2 {
@@ -69,6 +69,7 @@ ul {
 	width: 50%;
 	float: left;
 	left: 0;
+	list-style: disc;
 }
 
 .wvm_site_intro_content {
