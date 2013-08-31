@@ -110,17 +110,17 @@ ul {
 
 .wvm_dash_content {
 	overflow: auto;
-	margin: 20px 20px 10px 20px;
+	margin: 10px;
 	height: auto;
 }
 
 .wvm_logo {
-	width: 16px;
-	height: 16px;
+	width: 100%;
+	height: 100%;
 	background-color: #333333;
 	margin: 0 20px 0 0;
 	float: left;
-	background: url(../favicon.ico)
+	background: url(../workvm-logo_unified.png)
 		repeat scroll 0 0
 		transparent;
 }
