@@ -156,6 +156,14 @@ ul {
 	cursor: pointer;
 }
 
+.wvm_breadcrumb {
+	
+}
+
+.wvm_breadcrumb li {
+	float: left;
+}
+
 .wvm_tagline {
 	font-family: Arial, Helvetica;
 	font-size: 1.5em;

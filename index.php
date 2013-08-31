@@ -26,6 +26,9 @@ require_once('library/git.php');
 			<div class="wvm_nav">
 				<jdoc:include type="modules" name="nav" />
 			</div>
+			<div class="wvm_breadcrumb">
+				<jdoc:include type="modules" name="breadcrumb" />
+			</div>
 		</div>
 		<jdoc:include type="modules" name="dash" /> 
 	</div>
@@ -37,9 +40,6 @@ require_once('library/git.php');
 			echo '<div class="wvm_site_home">';
 		} else {
 			echo '<div class="wvm_site_global">';
-			echo '<div class="wvm_breadcrumb">';
-			echo '<jdoc:include type="modules" name="breadcrumb" />';
-			echo '</div>';
 		}
 	?>
 		<div class="wvm_site_grid">
