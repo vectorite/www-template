@@ -1,6 +1,5 @@
 <?php 
-require_once('library/git.php'); 
-$git = new git();
+require_once('library/git.php');
 ?>
 <!DOCTYPE html>
 <html>
