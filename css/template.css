@@ -110,7 +110,7 @@ ul {
 
 .wvm_dash_content {
 	overflow: auto;
-	margin: 20px;
+	margin: 20px 20px 10px 20px;
 	height: auto;
 }
 
@@ -157,7 +157,8 @@ ul {
 }
 
 .wvm_breadcrumb {
-	
+	margin: 0px 0px 0px 33px;
+	padding: 30px 0px 0px 0px;
 }
 
 .wvm_breadcrumb li {
