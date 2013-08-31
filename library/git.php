@@ -12,11 +12,11 @@ function git_code($path) {
 	// Strip out the file header
 	$delete_lines = false;
 	foreach ($contents as $line_num => $line) {
-		if (preg_match("# [Info\]", $line)) {
-			unset($contents[$line_num]);
+		if (strpos($line,'[Info\]') !== false) {
+   			unset($contents[$line_num]);
 			$delete_lines = true;
 		}
-		if (preg_match("# [Info/]", $line)) {
+		if (strpos($line,'[Info/]') !== false) {
 			unset($contents[$line_num]);
 			break;
 		}
