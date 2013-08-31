@@ -1,3 +1,7 @@
+<?php 
+require_once('library/git.php'); 
+$git = new git();
+?>
 <!DOCTYPE html>
 <html>
 <head>
