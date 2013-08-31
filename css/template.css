@@ -179,6 +179,10 @@ ul {
 	padding: 0 0 0 10px;
 }
 
+.wvm_subnav ul li {
+	
+}
+
 .wvm_subnav ul .active.current {
 	font-weight: bold;
 }
@@ -196,7 +200,7 @@ ul {
 }
 
 .wvm_subnav_object_content {
-	
+	padding: 3px;
 }
 
 .wvm_breadcrumb {
