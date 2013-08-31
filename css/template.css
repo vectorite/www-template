@@ -204,6 +204,18 @@ ul {
 	border-bottom: dotted 1px #999;
 }
 
+.wvm_subnav_object_content.subnav_indent_1 {padding: 3px 3px 3px 5px;}
+.wvm_subnav_object_content.subnav_indent_2 {padding: 3px 3px 3px 10px;}
+.wvm_subnav_object_content.subnav_indent_3 {padding: 3px 3px 3px 15px;}
+.wvm_subnav_object_content.subnav_indent_4 {padding: 3px 3px 3px 20px;}
+.wvm_subnav_object_content.subnav_indent_5 {padding: 3px 3px 3px 25px;}
+.wvm_subnav_object_content.subnav_indent_6 {padding: 3px 3px 3px 30px;}
+.wvm_subnav_object_content.subnav_indent_7 {padding: 3px 3px 3px 35px;}
+.wvm_subnav_object_content.subnav_indent_8 {padding: 3px 3px 3px 40px;}
+.wvm_subnav_object_content.subnav_indent_9 {padding: 3px 3px 3px 45px;}
+.wvm_subnav_object_content.subnav_indent_10 {padding: 3px 3px 3px 50px;}
+.wvm_subnav_object_content.subnav_indent_11 {padding: 3px 3px 3px 55px;}
+
 .wvm_breadcrumb {
 	margin: 0px 0px 0px 23px;
 	padding: 30px 0px 0px 0px;
