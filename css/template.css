@@ -21,10 +21,6 @@ h2 {
 	border-bottom: solid 1px #e0e0e0;
 }
 
-h2:hover {
-	border-bottom: solid 1px #333;
-}
-
 a, a:visited {
 	text-decoration: none;
 	color: #004B8C;
@@ -222,6 +218,10 @@ ul {
 	background: #f4f4f4;
 	cursor: pointer;
 	border-bottom: dotted 1px #333;
+}
+
+.wvm_subnav_object_content.parent {
+	font-weight: bold;
 }
 
 .subnav_indent_1 {padding: 3px 3px 3px 5px;}
