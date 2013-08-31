@@ -79,19 +79,19 @@ foreach ($list as $i => &$item) :
 	if ($item->deeper)
 	{
 		$indent++;
-		$subnav_class+=' indent_'.$indent;
+		$subnav_class .= ' indent_'.$indent;
 		echo '<div class="wvm_subnav_object_content'.$subnav_class.'">';
 	}
 	// The next item is shallower.
 	elseif ($item->shallower)
 	{
 		$indent--;
-		$subnav_class+=' indent_'.$indent;
+		$subnav_class .= ' indent_'.$indent;
 		echo '<div class="wvm_subnav_object_content'.$subnav_class.'">';
 	}
 	// The next item is on the same level.
 	else {
-		$subnav_class+=' indent_'.$indent;
+		$subnav_class .= ' indent_'.$indent;
 		echo '<div class="wvm_subnav_object_content'.$subnav_class.'">';
 	}
 	switch ($item->type) :
@@ -111,7 +111,6 @@ foreach ($list as $i => &$item) :
 	// The next item is deeper.
 	if ($item->deeper)
 	{
-		$indent++;
 		echo '<ul class="nav-child unstyled small">';
 	}
 	// The next item is shallower.
