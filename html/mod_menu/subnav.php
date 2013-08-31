@@ -28,11 +28,13 @@ foreach ($list as $i => &$item) :
 	if ($item->id == $active_id)
 	{
 		$class .= ' current';
+		$subnav_class = ' current';
 	}
 
 	if (in_array($item->id, $path))
 	{
 		$class .= ' active';
+		$subnav_class = ' active';
 	}
 	elseif ($item->type == 'alias')
 	{
@@ -60,6 +62,7 @@ foreach ($list as $i => &$item) :
 	if ($item->parent)
 	{
 		$class .= ' parent';
+		$subnav_class = ' parent';
 	}
 
 	if (!empty($class))
@@ -68,7 +71,7 @@ foreach ($list as $i => &$item) :
 	}
 
 	echo '<li'.$class.'>';
-	echo '<div class="wvm_subnav_object '.$class.'">';
+	echo '<div class="wvm_subnav_object '.$subnav_class.'">';
 
 	// Render the menu item.
 	echo '<div class="wvm_subnav_object_content">';
