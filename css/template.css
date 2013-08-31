@@ -176,8 +176,8 @@ ul {
 }
 
 .wvm_subnav ul {
-	padding: 0 0 0 20px;
-	margin: 0 20px 0 0;
+	padding: 0 0 0 10px;
+	margin: 0 10px 0 0;
 }
 
 .wvm_subnav ul .active.current {
@@ -189,6 +189,10 @@ ul {
 }
 
 .wvm_subnav_object {
+	
+}
+
+.wvm_subnav_object_content {
 	
 }
 
