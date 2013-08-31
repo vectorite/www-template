@@ -15,8 +15,9 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
-	text-transform: uppercase;
 	color: #333333;
+	padding: 0 0 10px 0;
+	border-bottom: solid 3px #f4f4f4;
 }
 
 a, a:visited {
@@ -109,7 +110,7 @@ ul {
 }
 
 .wvm_dash_content {
-	overflow: auto;
+	overflow: hidden;
 	margin: 10px;
 	height: 64px;
 }
