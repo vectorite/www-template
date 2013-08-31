@@ -46,7 +46,6 @@ ul {
 	width: 100%;
 	position: static;
 	float: left;
-	overflow: auto;
 }
 
 .wvm_site_grid {

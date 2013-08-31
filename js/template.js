@@ -20,6 +20,7 @@ function set_template_properties() {
 	var site_height = window_height - site_top;
 	$('.wvm_site_global').css("margin-top",site_top+"px");
 	$('.wvm_site_global').height(site_height);
+	$('.wvm_site_content').height(site_height);
 	
 	// Grid Navigation Text Effects
 	var grid_effects = {
