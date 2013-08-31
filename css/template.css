@@ -156,6 +156,14 @@ ul {
 	cursor: pointer;
 }
 
+.wvm_subnav {
+	list-style: none;
+}
+
+.wvm_subnav_object_content {
+	padding: 3px;
+}
+
 .wvm_breadcrumb {
 	margin: 0px 0px 0px 23px;
 	padding: 30px 0px 0px 0px;
