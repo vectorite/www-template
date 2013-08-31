@@ -175,7 +175,7 @@ ul {
 }
 
 .wvm_subnav ul {
-	padding: 0 0 0 10px;
+	padding: 0;
 }
 
 .wvm_subnav ul li {
@@ -191,7 +191,7 @@ ul {
 }
 
 .wvm_subnav_objects {
-	padding: 10px 10px 10px 0;
+	padding: 10px 0 10px 0;
 	border-left: solid 3px #e0e0e0;
 }
 
