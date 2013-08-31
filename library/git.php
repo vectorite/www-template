@@ -10,7 +10,7 @@ function git_code($path) {
 	$contents_raw = file_get_contents("https://raw.github.com/workvm/intengine/$branch/$path");
 	
 	// Strip out the file header and return the contents
-	$contents = preg_replace('/^#.*\[Info\\]*\[Info\/\]*$/', '', $contents_raw);
+	$contents = preg_replace('/^#.*\[Info\\]*\[Info\/\]*$/s', '', $contents_raw);
 	echo $contents;
 	
 }
