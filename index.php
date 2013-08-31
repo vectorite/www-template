@@ -26,9 +26,6 @@ require_once('library/git.php');
 			<div class="wvm_nav">
 				<jdoc:include type="modules" name="nav" />
 			</div>
-			<div class="wvm_breadcrumb">
-				<jdoc:include type="modules" name="breadcrumb" />
-			</div>
 		</div>
 		<jdoc:include type="modules" name="dash" /> 
 	</div>
