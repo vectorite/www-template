@@ -160,8 +160,6 @@ ul {
 	position: fixed;
 	float: right;
 	right: 0;
-	padding: 10px 0 10px 0;
-	margin: 10px 0 10px 0;
 	list-style: none;
 	overflow: auto;
 }
