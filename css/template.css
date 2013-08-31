@@ -177,7 +177,6 @@ ul {
 
 .wvm_subnav ul {
 	padding: 0 0 0 10px;
-	margin: 0 10px 0 0;
 }
 
 .wvm_subnav ul .active.current {
@@ -186,6 +185,10 @@ ul {
 
 .wvm_subnav .nav-child {
 	font-weight: normal;
+}
+
+.wvm_subnav_objects {
+	padding: 0 10px 0 0;
 }
 
 .wvm_subnav_object {
