@@ -204,6 +204,11 @@ ul {
 	border-bottom: dotted 1px #999;
 }
 
+.wvm_subnav_object_content:hover {
+	background: #f4f4f4;
+	cursor: pointer;
+}
+
 .subnav_indent_1 {padding: 3px 3px 3px 5px;}
 .subnav_indent_2 {padding: 3px 3px 3px 10px;}
 .subnav_indent_3 {padding: 3px 3px 3px 15px;}
