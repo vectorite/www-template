@@ -207,6 +207,7 @@ ul {
 .wvm_subnav_object_content:hover {
 	background: #f4f4f4;
 	cursor: pointer;
+	border-bottom: dotted 1px #333;
 }
 
 .subnav_indent_1 {padding: 3px 3px 3px 5px;}
