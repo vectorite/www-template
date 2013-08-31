@@ -111,7 +111,7 @@ ul {
 .wvm_dash_content {
 	overflow: auto;
 	margin: 10px;
-	height: auto;
+	height: 64px;
 }
 
 .wvm_logo {
@@ -123,11 +123,14 @@ ul {
 
 .wvm_logo:hover {
 	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .wvm_nav {
 	float: left;
 	position: left;
+	height: 50%;
 }
 
 .wvm_nav_object {
@@ -137,9 +140,13 @@ ul {
 .wvm_nav_object_content {
 	width: auto;
 	height: 16px;
-	padding: 0px 20px 0px 0px;
+	padding: 0 20px 0 0;
 	line-height: 16px;
 	font-size: 1.2em;
+}
+
+.wvm_nav_objects {
+	padding: 16px 0 0 0;
 }
 
 .wvm_nav_object_content a {
@@ -219,8 +226,9 @@ ul {
 .subnav_indent_11 {padding: 3px 3px 3px 55px;}
 
 .wvm_breadcrumb {
-	margin: 0px 0px 0px 23px;
-	padding: 30px 0px 0px 0px;
+	float: left;
+	height: 32px;
+	line-height: 32px;
 }
 
 .wvm_breadcrumb li {
