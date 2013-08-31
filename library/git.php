@@ -17,13 +17,13 @@ function git_code($path) {
 			unset($contents[$line_num]);
 			$delete_lines = true;
 		}
-		if ($delete_lines = true) {
-			unset($contents[$line_num]);
-		}
 		if (preg_match("/^#.*\[Info\/\].*$/i", $line)) {
 			echo "Match Found: '$contents[$line_num]'";
 			unset($contents[$line_num]);
 			break;
+		}
+		if ($delete_lines = true) {
+			unset($contents[$line_num]);
 		}
 	}
 	
