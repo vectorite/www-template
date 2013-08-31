@@ -11,8 +11,9 @@ function git_code($path) {
 	
 	// Strip out the file header
 	$delete_lines = false;
-	/*foreach ($contents as $line_num => $line) {
+	foreach ($contents as $line_num => $line) {
 		if (preg_match("/^#.*\[Info\\\\].*$/i", $line)) {
+			echo "Match Found: '$line[$line_num]'";
 			unset($contents[$line_num]);
 			$delete_lines = true;
 		}
@@ -20,10 +21,11 @@ function git_code($path) {
 			unset($contents[$line_num]);
 		}
 		if (preg_match("/^#.*\[Info\/\].*$/i", $line)) {
+			echo "Match Found: '$line[$line_num]'";
 			unset($contents[$line_num]);
 			break;
 		}
-	}*/
+	}
 	
 	// Return the file contents
 	foreach ($contents as $line) {
