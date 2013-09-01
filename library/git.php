@@ -52,7 +52,7 @@ function git_framework($path) {
 	$file_language = file(github_url() . branch() . "/language/en/framework/" . $path . ".lang");
 	
 	// Get the HTML blocks for the framework / library / language
-	$fw_content = implode();
+	$fw_content = implode(strip_header($file_framework));
 	$lib_content = implode(strip_header($file_library));
 	$lang_content = implode(strip_header($file_language));
 	
