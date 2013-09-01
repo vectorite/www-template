@@ -96,7 +96,7 @@ function set_template_properties() {
 		
 		// Make the menu item active and show the file contents
 		$('#fw_nav').addClass('wvm_active_nav');
-		$('#fw_content').css('display', 'all');
+		$('#fw_content').css('display', 'block');
 		
 	});
 	$('#lib_nav').click(function() {
@@ -109,7 +109,7 @@ function set_template_properties() {
 		
 		// Make the menu item active and show the file contents
 		$('#lib_nav').addClass('wvm_active_nav');
-		$('#lib_content').css('display', 'all');
+		$('#lib_content').css('display', 'block');
 		
 	});
 	$('#lang_nav').click(function() {
@@ -122,7 +122,7 @@ function set_template_properties() {
 		
 		// Make the menu item active and show the file contents
 		$('#lang_nav').addClass('wvm_active_nav');
-		$('#lang_content').css('display', 'all');
+		$('#lang_content').css('display', 'block');
 		
 	});
 	
