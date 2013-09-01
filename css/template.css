@@ -413,7 +413,8 @@ ul {
 }
 
 .wvm_gitfw_files {
-	
+	border: solid 1px #e0e0e0;
+	padding: 10px;
 }
 
 .wvm_gitfw_files_nav {
@@ -439,4 +440,9 @@ ul {
 
 .wvm_gitfw_files_content_source {
 	
+}
+
+#lib_nav {
+	border-left: solid 1px #e0e0e0;
+	border-right: solid 1px #e0e0e0;
 }
