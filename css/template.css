@@ -117,7 +117,8 @@ ul {
 }
 
 .wvm_grid_object_content {
-	text-align: center;
+	text-align: right;
+	padding: 0 40px 0 0;
 }
 
 .wvm_grid_object_content:hover {
