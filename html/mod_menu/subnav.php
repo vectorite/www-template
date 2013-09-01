@@ -64,7 +64,7 @@ foreach ($list as $i => &$item) :
 	if ($item->parent)
 	{
 		$class .= ' parent';
-		$subnav_class = ' parent';
+		$subnav_class .= ' parent';
 	}
 
 	if (!empty($class))
