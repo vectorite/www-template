@@ -337,11 +337,17 @@ ul {
 	padding: 0 10px 10px 0;
 }
 
-.edit.item-page .form-vertical {
+.edit.item-page .form-vertical, .edit.item-page fieldset {
 	border: 0;
+}
+
+.edit.item-page .nav-tabs {
+	overflow: auto;
+	border-bottom: solid 1px #e0e0e0;
 }
 
 .edit.item-page .nav-tabs li {
 	padding: 5px;
 	font-weight: bold;
+	float: left;
 }
