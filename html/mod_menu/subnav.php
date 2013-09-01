@@ -26,6 +26,7 @@ defined('_JEXEC') or die;
 $indent = '0';
 foreach ($list as $i => &$item) :
 	$class = 'item-'.$item->id;
+	$subnav_class = '';
 	if ($item->id == $active_id)
 	{
 		$class .= ' current';
