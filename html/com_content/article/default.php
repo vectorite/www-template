@@ -11,9 +11,6 @@ defined('_JEXEC') or die;
 
 JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 
-// Load template library
-require_once($this->baseurl . '/templates/' . $this->template . '/library/git.php');
-
 // Create shortcuts to some parameters.
 $params  = $this->item->params;
 $images  = json_decode($this->item->images);
@@ -25,6 +22,7 @@ JHtml::_('behavior.caption');
 
 ?>
 <div class="item-page<?php echo $this->pageclass_sfx?>">
+	<?php require_once($this->baseurl . '/templates/' . $this->template . '/library/git.php'); ?>
 	<?php if ($this->params->get('show_page_heading') && $params->get('show_title')) : ?>
 	<div class="page-header">
 		<h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
