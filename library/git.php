@@ -1,8 +1,8 @@
 <?php
 	
 // GitHub URL and source branch
-function github_url()	{ echo 'https://raw.github.com/workvm/intengine/'; }
-function branch() 		{ echo 'dev'; }
+function github_url()	{ return 'https://raw.github.com/workvm/intengine/'; }
+function branch() 		{ return 'dev'; }
 	
 // Strip header from source code
 function strip_header($contents) {
