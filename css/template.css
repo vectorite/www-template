@@ -287,12 +287,9 @@ ul {
 	margin: 20px;
 }
 
-.btn-group {
-	float: right;
-}
-
 .edit-icon {
-	
+	position: absolute;
+	float: right;
 }
 
 .wvm_cli_example {
