@@ -32,7 +32,7 @@ function strip_header($contents) {
 }
 
 // Get the source code from GitHub
-function source_code($path) {
+function git_code($path) {
 	
 	// Get the file contents
 	$contents = file($github_url . $branch . "/" . $path);
@@ -48,7 +48,7 @@ function source_code($path) {
 }
 
 // Load framework
-function framework($path) {
+function git_framework($path) {
 	
 	// Get the framework file / library / language library
 	$file_framework = file($github_url . $branch . "/framework/" . $path . ".fw");
