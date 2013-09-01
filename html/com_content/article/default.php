@@ -15,7 +15,6 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 require_once($this->baseurl . '/templates/' . $this->template . '/library/git.php');
 
 // Create shortcuts to some parameters.
-$git 	 = new $git;
 $params  = $this->item->params;
 $images  = json_decode($this->item->images);
 $urls    = json_decode($this->item->urls);
