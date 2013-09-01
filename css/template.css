@@ -359,3 +359,15 @@ ul {
 	background-color: #f4f4f4;
 	cursor: pointer;
 }
+
+.edit.item-page .control-label {
+	font-weight: bold;
+	padding: 5px 0 5px 0;
+}
+
+.edit.item-page .controls input {
+	border: solid 2px #f4f4f4;
+	background: #ffffff;
+	padding: 5px;
+	font-size: 1.2em;
+}
