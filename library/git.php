@@ -55,11 +55,6 @@ function git_framework($path) {
 	$file_library = file(github_url() . branch() . "/library/framework/" . $path . ".lib");
 	$file_language = file(github_url() . branch() . "/language/en/framework/" . $path . ".lang");
 	
-	// Get the HTML blocks for the framework / library / language
-	$fw_content = implode(strip_header($file_framework));
-	$lib_content = implode(strip_header($file_library));
-	$lang_content = implode(strip_header($file_language));
-	
 	// Define the HTML block
 	$framework_html = '<div class="wvm_gitfw">';
 		$framework_html .= '<div class="wvm_gitfw_files">';
@@ -70,9 +65,9 @@ function git_framework($path) {
 			$framework_html .= '</div>';
 		$framework_html .= '</div>';
 		$framework_html .= '<div class="wvm_gitfw_files_content">';
-			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="fw_content"><pre class="brush:bash">' . $fw_content . '</pre></div>';
-			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="lib_content"><pre class="brush:bash">' . $lib_content . '</pre></div>';
-			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="lang_content"><pre class="brush:bash">' . $lang_content . '</pre></div>';
+			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="fw_content"><pre class="brush:bash">' . strip_header($file_framework) . '</pre></div>';
+			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="lib_content"><pre class="brush:bash">' . strip_header($file_library) . '</pre></div>';
+			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="lang_content"><pre class="brush:bash">' . strip_header($file_language) . '</pre></div>';
 		$framework_html .= '</div>';
 	$framework_html .= '</div>';
 	
