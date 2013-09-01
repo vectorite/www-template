@@ -392,13 +392,16 @@ ul {
 .edit.item-page #jform_publish_up_img, .edit.item-page #jform_publish_down_img {
 	width: 32px;
 	height: 32px;
-	padding: 0 5px 0 0;
+	margin: 0 0 0 5px;
 	background-image: url(../images/calendar_22x22.png);
 	background-positon: 50% 50%;
 	background-repeat: no-repeat;
 	border: 0;
 	background-color: transparent;
-	float: left;
+}
+
+.edit.item-page #jform_publish_up_img:hover, .edit.item-page #jform_publish_down_img:hover {
+	cursor: pointer;
 }
 
 .edit.item-page #jform_tags {
