@@ -212,9 +212,14 @@ ul {
 
 .wvm_subnav_object_content.parent.deeper {
 	font-weight: bold;
+}
+
+.wvm_subnav_object_content.parent.deeper a {
+	font-weight: bold;
 	background-image: url(../images/arrow.png);
-	background-position: 90% 50%;
+	background-position: 100% 50%;
 	background-repeat: no-repeat;
+	opacity: 0.7;
 }
 
 .current .wvm_subnav_object_content.active {
