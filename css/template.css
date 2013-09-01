@@ -362,12 +362,29 @@ ul {
 
 .edit.item-page .control-label {
 	font-weight: bold;
-	padding: 5px 0 5px 0;
+	padding: 10px 0 10px 0;
+	color: #333;
 }
 
 .edit.item-page .controls input {
-	border: solid 2px #f4f4f4;
-	background: #ffffff;
+	border: solid 2px #e0e0e0;
+	background: #f4f4f4;
 	padding: 5px;
 	font-size: 1.2em;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+.edit.item-page .editor-xtd-buttons  {
+	overflow: auto;
+	border-bottom: solid 1px #e0e0e0;
+	border-left: solid 1px #e0e0e0;
+	margin: 10px 0 10px 0;
+}
+
+.edit.item-page .editor-xtd-buttons a {
+	padding: 5px;
+	font-weight: bold;
+	float: left;
+	border-right: solid 1px #e0e0e0;
 }
