@@ -78,14 +78,15 @@ ul {
 
 .wvm_site_intro_content ul {
 	list-style: none;
+	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
 .wvm_site_intro_content li {
-	height: 16px;
-	line-height: 16px;
-	padding: 0 0 0 16px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 0 0 20px;
 	background-image: url(../images/grid_list_16x16.png);
 	background-position: 0 50%;
 	background-repeat: no-repeat;
