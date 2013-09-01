@@ -428,6 +428,9 @@ ul {
 	line-height: 40px;
 	text-align: center;
 	float: left;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #333;
 }
 
 .wvm_gitfw_files_content {
