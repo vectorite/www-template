@@ -8,7 +8,7 @@ function git_code($path) {
 	
 	// Get the file contents and strip the header
 	$contents = file_get_contents("https://raw.github.com/workvm/intengine/$branch/$path");
-	$contents = preg_replace('/Info/s', '', $contents);
+	$contents = preg_replace('/^#\s\[Info\\\\]/s', '', $contents);
 	
 	// Return the file contents
 	echo $contents;
