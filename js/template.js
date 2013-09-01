@@ -78,7 +78,7 @@ function set_template_properties() {
 		); 
 	
 	// Fit the text horizontally in the grid navigation
-	$(".wvm_grid_object_content").fitText();
+	$(".wvm_grid_object_content").fitText(0.5);
 	
 	// Go to home page when clicking the logo
 	$('.wvm_logo').click(function() {
