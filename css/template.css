@@ -205,13 +205,22 @@ ul {
 	border-left: solid 3px #e0e0e0;
 }
 
+.wvm_subnav_object_content {
+	padding: 3px;
+	border-bottom: dotted 1px #999;
+}
+
 .wvm_subnav_object_content.parent.deeper {
 	font-weight: bold;
 }
 
-.wvm_subnav_object_content {
-	padding: 3px;
-	border-bottom: dotted 1px #999;
+.wvm_subnav_object_content.active {
+	font-weight: bold;
+	background-color: #333;
+}
+
+.wvm_subnav_object_content.active a {
+	color: #f4f4f4;
 }
 
 .wvm_subnav_object_content:hover {
@@ -220,17 +229,14 @@ ul {
 	border-bottom: dotted 1px #333;
 }
 
-.subnav_indent_1 {padding: 3px 3px 3px 5px;}
-.subnav_indent_2 {padding: 3px 3px 3px 10px;}
-.subnav_indent_3 {padding: 3px 3px 3px 15px;}
-.subnav_indent_4 {padding: 3px 3px 3px 20px;}
-.subnav_indent_5 {padding: 3px 3px 3px 25px;}
-.subnav_indent_6 {padding: 3px 3px 3px 30px;}
-.subnav_indent_7 {padding: 3px 3px 3px 35px;}
-.subnav_indent_8 {padding: 3px 3px 3px 40px;}
-.subnav_indent_9 {padding: 3px 3px 3px 45px;}
-.subnav_indent_10 {padding: 3px 3px 3px 50px;}
-.subnav_indent_11 {padding: 3px 3px 3px 55px;}
+.subnav_indent_1 {padding: 3px 3px 3px 10px;}
+.subnav_indent_2 {padding: 3px 3px 3px 20px;}
+.subnav_indent_3 {padding: 3px 3px 3px 30px;}
+.subnav_indent_4 {padding: 3px 3px 3px 40px;}
+.subnav_indent_5 {padding: 3px 3px 3px 50px;}
+.subnav_indent_6 {padding: 3px 3px 3px 60px;}
+.subnav_indent_7 {padding: 3px 3px 3px 70px;}
+.subnav_indent_8 {padding: 3px 3px 3px 80px;}
 
 .wvm_breadcrumb {
 	float: left;
