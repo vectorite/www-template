@@ -430,8 +430,18 @@ ul {
 	text-align: center;
 	float: left;
 	font-size: 1.3em;
-	font-weight: bold;
 	color: #333;
+	border-bottom: solid 5px #e0e0e0;
+}
+
+.wvm_gitfw_files_nav_item:hover {
+	cursor: pointer;
+	background-color: #f4f4f4;
+}
+
+.wvm_gitfw_files_nav_item.wvm_active_nav {
+	border-bottom: none;
+	font-weight: bold;
 }
 
 .wvm_gitfw_files_content {
@@ -439,7 +449,7 @@ ul {
 }
 
 .wvm_gitfw_files_content_source {
-	position: fixed;
+	position: relative;
 }
 
 #lib_nav {

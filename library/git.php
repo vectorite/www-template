@@ -60,7 +60,7 @@ function git_framework($path) {
 	$framework_html = '<div class="wvm_gitfw">';
 		$framework_html .= '<div class="wvm_gitfw_files">';
 			$framework_html .= '<div class="wvm_gitfw_files_nav">';
-				$framework_html .= '<div class="wvm_gitfw_files_nav_item" id="fw_nav">Framework</div>';
+				$framework_html .= '<div class="wvm_gitfw_files_nav_item wvm_active_nav" id="fw_nav">Framework</div>';
 				$framework_html .= '<div class="wvm_gitfw_files_nav_item" id="lib_nav">Library</div>';
 				$framework_html .= '<div class="wvm_gitfw_files_nav_item" id="lang_nav">Language</div>';
 			$framework_html .= '</div>';

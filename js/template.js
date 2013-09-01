@@ -85,6 +85,47 @@ function set_template_properties() {
 		window.location = '/';
 	});
 	
+	// Toggle between framework / library / language
+	$('#fw_nav').click(function() {
+		
+		// Deactivate other menus and hide content
+		$('#lib_nav').removeClass('wvm_active_nav');
+		$('#lib_content').css('display', 'none');
+		$('#lang_nav').removeClass('wvm_active_nav');
+		$('#lang_content').css('display', 'none');
+		
+		// Make the menu item active and show the file contents
+		$('#fw_nav').addClass('wvm_active_nav');
+		$('#fw_content').css('display', 'all');
+		
+	});
+	$('#lib_nav').click(function() {
+			
+		// Deactivate other menus and hide content
+		$('#fw_nav').removeClass('wvm_active_nav');
+		$('#fw_content').css('display', 'none');
+		$('#lang_nav').removeClass('wvm_active_nav');
+		$('#lang_content').css('display', 'none');
+		
+		// Make the menu item active and show the file contents
+		$('#lib_nav').addClass('wvm_active_nav');
+		$('#lib_content').css('display', 'all');
+		
+	});
+	$('#lang_nav').click(function() {
+		
+		// Deactivate other menus and hide content
+		$('#lib_nav').removeClass('wvm_active_nav');
+		$('#lib_content').css('display', 'none');
+		$('#fw_nav').removeClass('wvm_active_nav');
+		$('#fw_content').css('display', 'none');
+		
+		// Make the menu item active and show the file contents
+		$('#lang_nav').addClass('wvm_active_nav');
+		$('#lang_content').css('display', 'all');
+		
+	});
+	
 }
 
 $(document).ready(function() {
