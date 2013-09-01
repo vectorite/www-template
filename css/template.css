@@ -375,14 +375,14 @@ ul {
 	border-radius: 5px; 
 }
 
-.edit.item-page .editor-xtd-buttons  {
+.edit.item-page #editor-xtd-buttons  {
 	overflow: auto;
 	border-bottom: solid 1px #e0e0e0;
 	border-left: solid 1px #e0e0e0;
 	margin: 10px 0 10px 0;
 }
 
-.edit.item-page .editor-xtd-buttons a {
+.edit.item-page #editor-xtd-buttons a {
 	padding: 5px;
 	font-weight: bold;
 	float: left;
