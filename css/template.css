@@ -290,6 +290,25 @@ ul {
 .edit-icon {
 	position: absolute;
 	float: right;
+	right: 20%;
+	margin: -45px 30px 0 0;
+	z-index: 101;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: solid 1px #999999;
+	padding: 3px;
+	height: 32px;
+	width: 32px;
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top, #1e5799 0%, #004891 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#004891)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #1e5799 0%,#004891 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #1e5799 0%,#004891 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #1e5799 0%,#004891 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #1e5799 0%,#004891 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#004891',GradientType=0 ); /* IE6-9 */
+	 -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);	
 }
 
 .wvm_cli_example {
