@@ -344,11 +344,8 @@ ul {
 .edit.item-page .nav-tabs {
 	overflow: auto;
 	border-bottom: solid 1px #e0e0e0;
-	margin: 0 0 10px 0;
-}
-
-.edit.item-page .nav-tabs ul {
 	border-left: solid 1px #e0e0e0;
+	margin: 0 0 10px 0;
 }
 
 .edit.item-page .nav-tabs li {
@@ -356,4 +353,9 @@ ul {
 	font-weight: bold;
 	float: left;
 	border-right: solid 1px #e0e0e0;
+}
+
+.edit.item-page .nav-tabs li:hover {
+	background-color: #f4f4f4;
+	cursor: pointer;
 }
