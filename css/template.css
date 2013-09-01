@@ -212,6 +212,7 @@ ul {
 
 .wvm_subnav_object_content.parent.deeper {
 	font-weight: bold;
+	background-color: #f4f4f4;
 	background-image: url(../images/arrow.png);
 	background-position: 95% 50%;
 	background-repeat: no-repeat;
@@ -236,7 +237,7 @@ ul {
 }
 
 .wvm_subnav_object_content:hover {
-	background: #f4f4f4;
+	background: #e0e0e0;
 	cursor: pointer;
 	border-bottom: dotted 1px #333;
 }
