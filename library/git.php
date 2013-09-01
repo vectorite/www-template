@@ -21,7 +21,7 @@ function git_code($path) {
 			$delete_lines = false;
 			break;
 		}
-		if ($delete_lines = true) {
+		if ($delete_lines === true) {
 			unset($contents[$line_num]);
 		}
 	}
