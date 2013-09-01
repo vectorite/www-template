@@ -439,7 +439,7 @@ ul {
 }
 
 .wvm_gitfw_files_content_source {
-	
+	position: fixed;
 }
 
 #lib_nav {
