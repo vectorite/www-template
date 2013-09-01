@@ -287,6 +287,14 @@ ul {
 	margin: 20px;
 }
 
+.btn-group {
+	float: right;
+}
+
+.edit-icon {
+	
+}
+
 .wvm_cli_example {
 	padding: 5px;
 	border: solid 3px #f4f4f4;
