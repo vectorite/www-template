@@ -58,6 +58,7 @@ foreach ($list as $i => &$item) :
 	if ($item->deeper)
 	{
 		$class .= ' deeper';
+		$subnav_class .= ' deeper';
 	}
 
 	if ($item->parent)
