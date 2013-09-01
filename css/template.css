@@ -407,3 +407,33 @@ ul {
 .edit.item-page #jform_tags {
 	min-width: 200px; 
 }
+
+.wvm_gitfw {
+	
+}
+
+.wvm_gitfw_files {
+	
+}
+
+.wvm_gitfw_files_nav {
+	height: 40px;
+	width: 100%;
+	overflow: auto;
+}
+
+.wvm_gitfw_files_nav_item {
+	height: 40px;
+	width: 33%;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+
+.wvm_gitfw_files_content {
+	
+}
+
+.wvm_gitfw_files_content_source {
+	
+}

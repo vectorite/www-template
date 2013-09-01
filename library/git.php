@@ -64,11 +64,11 @@ function git_framework($path) {
 				$framework_html .= '<div class="wvm_gitfw_files_nav_item" id="lib_nav">Library</div>';
 				$framework_html .= '<div class="wvm_gitfw_files_nav_item" id="lang_nav">Language</div>';
 			$framework_html .= '</div>';
-		$framework_html .= '</div>';
-		$framework_html .= '<div class="wvm_gitfw_files_content">';
-			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="fw_content"><pre class="brush:bash">' . $fw_content . '</pre></div>';
-			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="lib_content"><pre class="brush:bash">' . $lib_content . '</pre></div>';
-			$framework_html .= '<div class="wvm_gitfw_files_content_source" id="lang_content"><pre class="brush:bash">' . $lang_content . '</pre></div>';
+			$framework_html .= '<div class="wvm_gitfw_files_content">';
+				$framework_html .= '<div class="wvm_gitfw_files_content_source" id="fw_content"><pre class="brush:bash">' . $fw_content . '</pre></div>';
+				$framework_html .= '<div class="wvm_gitfw_files_content_source" id="lib_content"><pre class="brush:bash">' . $lib_content . '</pre></div>';
+				$framework_html .= '<div class="wvm_gitfw_files_content_source" id="lang_content"><pre class="brush:bash">' . $lang_content . '</pre></div>';
+			$framework_html .= '</div>';
 		$framework_html .= '</div>';
 	$framework_html .= '</div>';
 	
