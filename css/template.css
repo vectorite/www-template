@@ -213,8 +213,7 @@ ul {
 .wvm_subnav_object_content.parent.deeper {
 	font-weight: bold;
 	background-image: url(../images/arrow.png);
-	background-position: right center;
-	background-attachment: fixed;
+	background-position: 90% 50%;
 	background-repeat: no-repeat;
 }
 
