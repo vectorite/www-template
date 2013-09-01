@@ -205,7 +205,7 @@ ul {
 	border-left: solid 3px #e0e0e0;
 }
 
-.wvm_subnav_object .parent {
+.wvm_subnav_object_content.parent {
 	font-weight: bold;
 }
 
