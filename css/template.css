@@ -389,7 +389,7 @@ ul {
 	border-right: solid 1px #e0e0e0;
 }
 
-.edit.item-page #jform_publish_up, .edit.item-page #jform_publish_down {
+.edit.item-page #jform_publish_up_img, .edit.item-page #jform_publish_down_img {
 	width: 32px;
 	height: 32px;
 	background-image: url(../images/calendar_22x22.png);
@@ -397,6 +397,6 @@ ul {
 	background-repeat: no-repeat;
 }
 
-.edit.item-page #jform-tags {
+.edit.item-page #jform_tags {
 	min-width: 200px; 
 }
