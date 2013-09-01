@@ -10,6 +10,7 @@ function set_template_properties() {
 	var grid_objects_length = $('.wvm_grid_object').length;
 	$(".wvm_grid_objects").height(window_height);
 	$(".wvm_grid_object").height(window_height / grid_objects_length);
+	$(".wvm_grid_object").css('line-height', window_height / grid_objects_length+'px');
 
 	// Set the navigation properties
 	var nav_width = window_width - ($('.wvm_logo').width() + 20) - 40;
