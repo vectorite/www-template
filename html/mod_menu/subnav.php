@@ -86,8 +86,8 @@ foreach ($list as $i => &$item) :
 	// The next item is shallower.
 	elseif ($item->shallower)
 	{
-		$indent--;
 		echo '<div class="wvm_subnav_object_content'.$subnav_class.' subnav_indent_'.$indent.'">';
+		$indent--;
 	}
 	// The next item is on the same level.
 	else {
