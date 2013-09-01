@@ -388,3 +388,15 @@ ul {
 	float: left;
 	border-right: solid 1px #e0e0e0;
 }
+
+.edit.item-page #jform_publish_up, .edit.item-page #jform_publish_down {
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/calendar_22x22.png);
+	background-positon: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.edit.item-page #jform-tags {
+	min-width: 200px; 
+}
