@@ -76,6 +76,21 @@ ul {
 	padding: 0 0 0 20px;
 }
 
+.wvm_site_intro_content ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.wvm_site_intro_content li {
+	height: 16px;
+	line-height: 16px;
+	padding: 0 0 0 16px;
+	background-image: url(../images/grid_list.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+}
+
 .wvm_dash {
 	z-index: 100;
 	position: fixed;
