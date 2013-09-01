@@ -12,7 +12,7 @@ function git_code($path) {
 	// Strip the header
 	$delete_lines = false;
 	foreach ($contents as $line_num => $line) {
-		if (preg_match("/^#.*Info\\/", $line)) {
+		if (preg_match("/^#.*Info\\\/", $line)) {
 			unset($contents[$line_num]);
 			$delete_lines = true;
 		}
