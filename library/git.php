@@ -26,7 +26,7 @@ function strip_header($contents) {
 	
 	// Return the file contents
 	foreach ($contents as $line) {
-		echo $line;
+		return $line;
 	}
 	
 }
