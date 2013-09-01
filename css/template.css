@@ -126,12 +126,10 @@ ul {
 	height: 64px;
 	margin: 0 20px 0 0;
 	float: left;
-	opacity: 0.6;
 }
 
 .wvm_logo:hover {
 	cursor: pointer;
-	opacity: 1.0;
 }
 
 .wvm_nav {
@@ -287,10 +285,6 @@ ul {
 
 .item-page, .blog {
 	margin: 20px;
-}
-
-.btn-group {
-	display: none;
 }
 
 .wvm_cli_example {
