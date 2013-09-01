@@ -214,6 +214,8 @@ ul {
 	font-weight: bold;
 	background-image: url(../images/arrow.png);
 	background-position: right center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .current .wvm_subnav_object_content.active {
