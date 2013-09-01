@@ -1,8 +1,8 @@
 <?php
 	
 // GitHub URL and source branch
-$github_url	= 'https://raw.github.com/workvm/intengine/';
-$branch 	= 'dev';
+function github_url()	{ echo 'https://raw.github.com/workvm/intengine/'; }
+function branch() 		{ echo 'dev'; }
 	
 // Strip header from source code
 function strip_header($contents) {
@@ -35,7 +35,7 @@ function strip_header($contents) {
 function git_code($path) {
 	
 	// Get the file contents
-	$contents = file($github_url . $branch . "/" . $path);
+	$contents = file(github_url() . branch() . "/" . $path);
 	
 	// Strip the header
 	$contents = strip_header($contents);
@@ -51,9 +51,9 @@ function git_code($path) {
 function git_framework($path) {
 	
 	// Get the framework file / library / language library
-	$file_framework = file($github_url . $branch . "/framework/" . $path . ".fw");
-	$file_library = file($github_url . $branch . "/library/framework/" . $path . ".lang");
-	$file_language = file($github_url . $branch . "/language/en/framework/" . $path . ".lang");
+	$file_framework = file(github_url() . branch() . "/framework/" . $path . ".fw");
+	$file_library = file(github_url() . branch() . "/library/framework/" . $path . ".lang");
+	$file_language = file(github_url() . branch() . "/language/en/framework/" . $path . ".lang");
 	
 	// Define the HTML block
 	$framework_html = '<div class="wvm_gitfw">';
