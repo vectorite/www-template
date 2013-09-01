@@ -26,7 +26,9 @@ function git_code($path) {
 	}
 	
 	// Return the file contents
-	echo $contents;
+	foreach ($contents as $line) {
+		echo $line;
+	}
 	
 }
 
