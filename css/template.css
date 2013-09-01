@@ -327,3 +327,21 @@ ul {
 	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .2); 
 	font-weight: bold;
 }
+
+.edit.item-page .btn-toolbar {
+	overflow: auto;	
+}
+
+.edit.item-page .btn-group {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+.edit.item-page .form-vertical {
+	border: 0;
+}
+
+.edit.item-page .nav-tabs li {
+	padding: 5px;
+	font-weight: bold;
+}
