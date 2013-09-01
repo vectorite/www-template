@@ -19,6 +19,7 @@ function git_code($path) {
 		if (preg_match("/^#.*Info\//", $line)) {
 			unset($contents[$line_num]);
 			$delete_lines = false;
+			break;
 		}
 		if ($delete_lines = true) {
 			unset($contents[$line_num]);
