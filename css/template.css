@@ -454,6 +454,7 @@ ul {
 
 .wvm_gitfw_files_nav_item:hover {
 	cursor: pointer;
+	font-weight: bold;
 }
 
 .wvm_gitfw_files_nav_item.wvm_active_nav {
