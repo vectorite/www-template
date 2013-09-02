@@ -481,8 +481,12 @@ ul {
 	overflow: auto;
 }
 
-.wvm_bio_pic, .wvm_bio_text {
+.wvm_bio_pic {
 	float: left;
+}
+
+.wvm_bio_text {
+	float: right;
 }
 
 .wvm_bio_img {
