@@ -73,10 +73,6 @@ ul {
 }
 
 .wvm_site_intro_content ul {
-	padding: 0 0 0 20px;
-}
-
-.wvm_site_intro_content ul {
 	list-style: none;
 	list-style-type: none;
 	padding: 0;
@@ -301,6 +297,22 @@ ul {
 
 .item-page, .blog {
 	margin: 20px;
+}
+
+.item-page ul {
+	list-style: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.item-page li {
+	height: 20px;
+	line-height: 20px;
+	padding: 0 0 0 20px;
+	background-image: url(../images/grid_list_16x16.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
 }
 
 .edit-icon {
