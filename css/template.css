@@ -101,10 +101,10 @@ ul {
 	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .2);
 }
 
-.wvm_list_content ul {
+.wvm_list_content {
 	list-style: none;
 	list-style-type: none;
-	padding: 0;
+	padding: 0 0 10px 0;
 	margin: 0;
 }
 
