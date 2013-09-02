@@ -109,7 +109,7 @@ ul {
 }
 
 .wvm_list_content li {
-	height: 20px;
+	min-height: 20px;
 	line-height: 20px;
 	padding: 0 0 0 20px;
 	background-image: url(../images/grid_list_16x16.png);
