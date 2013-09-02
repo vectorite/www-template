@@ -454,13 +454,13 @@ ul {
 
 .wvm_gitfw_files_nav_item:hover {
 	cursor: pointer;
-	background-color: #f4f4f4;
 }
 
 .wvm_gitfw_files_nav_item.wvm_active_nav {
 	color: #333;
 	border-bottom: none;
 	font-weight: bold;
+	background-color: #fff;
 }
 
 .wvm_gitfw_files_content {
@@ -488,7 +488,7 @@ ul {
 .wvm_bio_text {
 	float: left;
 	padding: 0 0 0 20px;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 .wvm_bio_img {
