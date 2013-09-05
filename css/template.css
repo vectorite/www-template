@@ -510,3 +510,33 @@ ul {
 	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
 	margin: 10px;
 }
+
+/* Joomla pagination */
+.items-more {
+	display: none;
+}
+
+.pagination .counter {
+	margin: 10px 0 5px 0;
+	padding: 0 0 5px 0;
+	border-bottom: solid 1px #e0e0e0;
+	font-size: 1.2em;
+	font-weight: bold;
+	overflow: auto;
+}
+
+.pagination .counter ul li {
+	float: left;
+}
+
+.pagination .counter .pagination-start, .pagination .counter .pagination-prev {
+	padding: 0 5px 0 0;
+	margin: 0 5px 0 0;
+	border-right: solid 1px #e0e0e0;
+}
+
+.pagination .counter .pagination-next, .pagination .counter .pagination-end {
+	padding: 0 0 0 5px;
+	margin: 0 0 0 5px;
+	border-left: solid 1px #e0e0e0;
+}
