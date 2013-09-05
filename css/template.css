@@ -525,7 +525,7 @@ ul {
 	overflow: auto;
 }
 
-.pagination .counter ul li {
+.pagination ul li {
 	float: left;
 }
 
