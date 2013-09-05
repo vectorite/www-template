@@ -516,27 +516,31 @@ ul {
 	display: none;
 }
 
+.pagination {
+	overflow: auto;
+	border-bottom: solid 1px #e0e0e0;
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 0;
+}
+
 .pagination .counter {
 	margin: 10px 0 5px 0;
 	padding: 0 0 5px 0;
 	border-bottom: solid 1px #e0e0e0;
 	font-size: 1.2em;
 	font-weight: bold;
-	overflow: auto;
 }
 
 .pagination ul li {
 	float: left;
+	padding: 0 5px 0 5px;
+	margin: 0 5px 0 5px;
 }
 
 .pagination-start, .pagination-prev {
-	padding: 0 5px 0 0;
-	margin: 0 5px 0 0;
 	border-right: solid 1px #e0e0e0;
 }
 
 .pagination-next, .pagination-end {
-	padding: 0 0 0 5px;
-	margin: 0 0 0 5px;
 	border-left: solid 1px #e0e0e0;
 }
