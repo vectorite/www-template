@@ -529,13 +529,13 @@ ul {
 	float: left;
 }
 
-.pagination .counter .pagination-start, .pagination .counter .pagination-prev {
+.pagination-start, .pagination-prev {
 	padding: 0 5px 0 0;
 	margin: 0 5px 0 0;
 	border-right: solid 1px #e0e0e0;
 }
 
-.pagination .counter .pagination-next, .pagination .counter .pagination-end {
+.pagination-next, .pagination-end {
 	padding: 0 0 0 5px;
 	margin: 0 0 0 5px;
 	border-left: solid 1px #e0e0e0;
