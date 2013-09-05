@@ -539,8 +539,10 @@ ul {
 
 .pagination-start, .pagination-prev {
 	border-right: solid 1px #e0e0e0;
+	padding: 0 10px 0 0 !important;
 }
 
 .pagination-next, .pagination-end {
 	border-left: solid 1px #e0e0e0;
+	padding: 0 0 0 10px !important;
 }
