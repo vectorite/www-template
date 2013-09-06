@@ -1,5 +1,6 @@
 <?php 
 require_once('library/git.php');
+require_once('library/detector/lib/Detector/Detector.php');
 ?>
 <!DOCTYPE html>
 <html>
