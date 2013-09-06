@@ -69,7 +69,7 @@ require_once('library/git.php');
 						echo '<jdoc:include type="component" /></div>';
 						echo '<div class="wvm_subnav" style="display:none;">';
 						echo '<jdoc:include type="modules" name="subnav" /></div>';
-						echo '</div>'';
+						echo '</div>';
 					}
 				}
 			?>
