@@ -25,7 +25,7 @@ require_once('library/git.php');
 			<div class="wvm_logo">
 				<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/workvm-logo.png" />
 			</div>
-			<div class="wvm_nav">';
+			<div class="wvm_nav">
 				<jdoc:include type="modules" name="nav" />
 			</div>
 			<div class="wvm_breadcrumb">
@@ -57,19 +57,19 @@ require_once('library/git.php');
 					echo "<div style=\"display:none;\"><div class=\"wvm_site_content\"><jdoc:include type=\"component\" /></div><div class=\"wvm_subnav\"><jdoc:include type=\"modules\" name=\"subnav\" /></div></div>";
 				} else {
 					if ($this->countModules( 'subnav' )) {
-						echo "<div style=\"display:all;\">";
-						echo "<div class=\"wvm_site_content\" style=\"width:80%;\">";
-						echo "<jdoc:include type=\"component\" /></div>";
-						echo "<div class=\"wvm_subnav\" style=\"width:20%;\">";
-						echo "<jdoc:include type=\"modules\" name=\"subnav\" /></div>";
-						echo "</div>";
+						echo '<div style="display:all;">';
+						echo '<div class=\"wvm_site_content\" style=\"width:80%;">';
+						echo '<jdoc:include type="component" /></div>';
+						echo '<div class="wvm_subnav" style="width:20%;">';
+						echo '<jdoc:include type="modules" name="subnav" /></div>';
+						echo '</div>';
                     } else {
-						echo "<div style=\"display:all;\">";
-						echo "<div class=\"wvm_site_content\" style=\"width:100%;\">";
-						echo "<jdoc:include type=\"component\" /></div>";
-						echo "<div class=\"wvm_subnav\" style=\"display:none;\">";
-						echo "<jdoc:include type=\"modules\" name=\"subnav\" /></div>";
-						echo "</div>";
+						echo '<div style="display:all;">';
+						echo '<div class="wvm_site_content" style="width:100%;">';
+						echo '<jdoc:include type="component" /></div>';
+						echo '<div class="wvm_subnav" style="display:none;">';
+						echo '<jdoc:include type="modules" name="subnav" /></div>';
+						echo '</div>'';
 					}
 				}
 			?>
