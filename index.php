@@ -26,6 +26,20 @@ require_once('library/detector/lib/Detector/Detector.php');
 			<div class="wvm_logo">
 				<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/workvm-logo.png" />
 			</div>
+			<?php
+			
+				/* Render the mobile main navigation */
+				if ($ua->isMobile) {
+    				echo '<div class="wvm_nav">';
+					echo '<jdoc:include type="modules" name="nav" />';
+					echo '</div>';
+    			/* Render the desktop main navigation */
+				} else {
+    				echo '<div class="wvm_nav_mobile">';
+					echo '<jdoc:include type="modules" name="nav" />';
+					echo '</div>';
+				}			
+			?>
 			<div class="wvm_nav">
 				<jdoc:include type="modules" name="nav" />
 			</div>
