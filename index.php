@@ -58,7 +58,7 @@ require_once('library/git.php');
 				} else {
 					if ($this->countModules( 'subnav' )) {
 						echo '<div style="display:all;">';
-						echo '<div class=\"wvm_site_content\" style=\"width:80%;">';
+						echo '<div class="wvm_site_content" style="width:80%;">';
 						echo '<jdoc:include type="component" /></div>';
 						echo '<div class="wvm_subnav" style="width:20%;">';
 						echo '<jdoc:include type="modules" name="subnav" /></div>';
