@@ -546,3 +546,12 @@ ul {
 	border-left: solid 1px #e0e0e0;
 	padding: 0 0 0 10px !important;
 }
+
+/* Mobile device navigation */
+.wvm_nav_modile {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+/* Mobile device subnavigation */

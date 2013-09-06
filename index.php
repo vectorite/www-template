@@ -1,5 +1,6 @@
 <?php 
 require_once('library/git.php');
+require_once('library/detector/lib/Detector/Detector.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -25,9 +26,20 @@ require_once('library/git.php');
 			<div class="wvm_logo">
 				<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/workvm-logo.png" />
 			</div>
-			<div class="wvm_nav">
-				<jdoc:include type="modules" name="nav" />
-			</div>
+			<?php
+				/* Render the mobile navigation */
+				if ($ua->isMobile) {
+					echo '<div class="wvm_nav_mobile">';
+					echo '<jdoc:include type="modules" name="nav" />';
+					echo '</div>';	    
+
+				/* Render the standard desktop navigation */
+				} else {
+					echo '<div class="wvm_nav">';
+					echo '<jdoc:include type="modules" name="nav" />';
+					echo '</div>';
+				}
+			?>
 			<div class="wvm_breadcrumb">
 				<jdoc:include type="modules" name="breadcrumb" />
 			</div>
