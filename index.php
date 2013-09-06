@@ -30,19 +30,16 @@ require_once('library/detector/lib/Detector/Detector.php');
 			
 				/* Render the mobile main navigation */
 				if ($ua->isMobile) {
-    				echo '<div class="wvm_nav">';
+    				echo '<div class="wvm_nav_mobile">';
 					echo '<jdoc:include type="modules" name="nav" />';
 					echo '</div>';
     			/* Render the desktop main navigation */
 				} else {
-    				echo '<div class="wvm_nav_mobile">';
+    				echo '<div class="wvm_nav">';
 					echo '<jdoc:include type="modules" name="nav" />';
 					echo '</div>';
 				}			
 			?>
-			<div class="wvm_nav">
-				<jdoc:include type="modules" name="nav" />
-			</div>
 			<div class="wvm_breadcrumb">
 				<jdoc:include type="modules" name="breadcrumb" />
 			</div>
